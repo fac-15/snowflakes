@@ -1,0 +1,39 @@
+{
+  "name": "snowflakes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test node src/tests/db.test.js | tap-spec",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fac-15/snowflakes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fac-15/snowflakes/issues"
+  },
+  "homepage": "https://github.com/fac-15/snowflakes#readme",
+  "devDependencies": {
+    "supertest": "^3.3.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.2"
+  },
+  "dependencies": {
+    "compression": "^1.7.3",
+    "env2": "^2.2.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.18.9",
+    "pg": "^7.7.1",
+    "serve-favicon": "^2.5.0"
+  }
+}
