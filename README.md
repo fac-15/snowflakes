@@ -1,4 +1,7 @@
+
 # ❄️ SNOWFLAKES ❄️ 
+
+[![Build Status](https://travis-ci.com/fac-15/snowflakes.svg?branch=staging)](https://travis-ci.com/fac-15/snowflakes)
 
 > “You are not special. You're not a beautiful and unique snowflake. You're the same decaying organic matter as everything else.”
 > - from *Fight Club* 
@@ -54,3 +57,4 @@ https://localhost:4000
 ## Stretch goals 🧘🏽‍
 - [ ] Use a cookie to remember results without sign in
 - [ ] Send a link with an HTML emails with links to results
+
