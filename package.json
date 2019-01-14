@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/fac-15/snowflakes#readme",
   "devDependencies": {
+    "eslint": "^5.12.0",
     "supertest": "^3.3.0",
     "tap-spec": "^5.0.0",
     "tape": "^4.9.2"
