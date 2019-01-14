@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "extends": [
+      "node",
+      "prettier",
+      "eslint:recommended"
+    ],
+    "plugins": ["prettier"],
+    "parserOptions": {
+        "ecmaVersion": 2016,
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
