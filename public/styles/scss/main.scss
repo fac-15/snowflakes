@@ -1,6 +1,14 @@
-$font-stack: 'Roboto', 'Raleway', 'Open Sans', sans-serif;
-$background-color-white: #FFFEFD;
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto);
+
+// Typography
+$h1-font-roboto: 'Roboto', sans-serif;
+$body-font-raleway: 'Raleway', sans-serif;
+$quote-font-open-sans: 'Open Sans', sans-serif;
+
+// Colors
 $main-text-color-black: #3B3D3E;
+$background-color-white: #FFFEFD;
 $highlight-color-orange: #FF6F61;
 $highlight-color-blue: #BDE2FF;
 $highlight-color-green: #97DDDF;
