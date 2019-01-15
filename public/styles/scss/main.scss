@@ -13,3 +13,8 @@ $highlight-color-orange: #FF6F61;
 $highlight-color-blue: #BDE2FF;
 $highlight-color-green: #97DDDF;
 
+
+h1 {
+  font-style: $h1-font-roboto;
+  color: $highlight-color-blue;
+}
