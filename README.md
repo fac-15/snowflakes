@@ -17,7 +17,7 @@ This is a project by Oliver, Jihyun, Cynthia & Kristina from Founders & Coders 1
 
 ## View Heroku deployed version of *Snowflakes* here:
 
-**PASTE HEROKU LINK HERE**
+https://snowflake-ca.herokuapp.com/
 
 ## How to install local version of *Snowflakes*:
 
