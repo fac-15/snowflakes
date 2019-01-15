@@ -4,11 +4,11 @@ const url = require('url');
 const env = require('env2');
 env('./config.env');
 
-let url;
+let DB_URL = process.env.DB_URL;
 if(process.env.NODE_ENV === 'test') {
-    url = process.env.TEST_DB_URL;
-} else{
-    url = process.env.DB_URL;
+    process.env.TEST_DB_URL;
+} else {
+    process.env.DB_URL;
 }
 
 if(!url){
@@ -34,4 +34,4 @@ if(password){
 
 options.ssl = options.host !== 'localhost';
 
-module.exports = new Pool(optinos);
+module.exports = new Pool(options);
