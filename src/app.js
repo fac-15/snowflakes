@@ -8,3 +8,32 @@ const controllers = require('./controllers/index');
 
 //create express app
 const app = express();
+
+app.disable('x-powered-by');
+
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'hbs');
+app.set('port', process.env.port || 4000);
+
+app.use(favicon(path.join(__dirname, '..', 'public', 'img/favicons/favicon.ico')));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended:false}));
+app.use(express.static(path.join(__dirname, '..', 'public')));
+
+app.engine(
+    'hbs',
+    exphbs({
+        extname: 'hbs',
+        partialsDir: path.join(__dirname, 'views', 'partials'),
+        layoutsDir: path.join(__dirname, 'views', 'layouts'),
+        defaultLayout: 'main'
+    })
+);
+
+app.get('/', (req, res) => {
+    res.render('home');
+});
+
+// app.use(controllers);
+
+module.exports = app;
