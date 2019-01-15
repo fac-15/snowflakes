@@ -2,8 +2,7 @@
     "env": {
         "browser": true,
         "node": true,
-        "es6": true,
-        "es5": true
+        "es6": true
     },
     "extends": [
       "node",
@@ -18,7 +17,7 @@
     "rules": {
         "indent": [
             "error",
-            "tab"
+            4
         ],
         "linebreak-style": [
             "error",
