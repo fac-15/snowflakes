@@ -10,7 +10,7 @@
     "test": "NODE_ENV=test jest --coverage",
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "scss": "node-sass --watch scss -o css"
+    "scss": "node-sass --watch public/styles/scss/main.scss -o public/styles/css"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0",
+    "node-sass": "^4.11.0",
     "prettier": "^1.15.3",
     "supertest": "^3.3.0",
     "tap-spec": "^5.0.0",
@@ -41,7 +42,6 @@
     "env2": "^2.2.2",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
-    "node-sass": "^4.11.0",
     "nodemon": "^1.18.9",
     "pg": "^7.7.1",
     "serve-favicon": "^2.5.0"
