@@ -33,13 +33,6 @@ app.engine(
     })
 );
 
-app.get('/', (req, res) => {
-    res.render('home');
-});
-// 
-// app.get('/explore', (req, res) => {
-//     res.render('explore');
-// });
 
 app.use(controllers);
 
