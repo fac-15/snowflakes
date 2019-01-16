@@ -1,3 +1,13 @@
+body {
+  color: #3B3D3E;
+  background-color: #FFFEFD; }
+
+/*******************************
+*            Helpers           *
+********************************/
+/*******   END HELPERS   *******/
 h1 {
-  font-style: "Roboto", sans-serif;
-  color: #BDE2FF; }
+  font-family: "Roboto", sans-serif; }
+
+h2 {
+  font-family: "Raleway", sans-serif; }
