@@ -5,7 +5,6 @@ const favicon = require('serve-favicon');
 const bodyParser = require('body-parser');
 const compression = require('compression');
 const controllers = require('./controllers/index');
-const helpers = require('./views/helpers/index.js');
 
 //create express app
 const app = express();
