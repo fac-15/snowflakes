@@ -1,3 +1,113 @@
 h1 {
-  font-style: "Roboto", sans-serif;
-  color: #BDE2FF; }
+  font-family: "Roboto", sans-serif;
+  color: #202020;
+  font-size: 4rem;
+  margin-top: 100px;
+  margin-left: 20px;
+  z-index: 100;
+  position: relative; }
+
+.explore-h1 {
+  font-family: "Roboto", sans-serif;
+  color: #202020;
+  font-size: 2.2rem;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.landingpage-h2 {
+  font-family: "Roboto", sans-serif;
+  color: #3B3D3E;
+  font-size: 2rem;
+  margin-left: 50px;
+  width: 300px;
+  height: 250px;
+  z-index: 100;
+  position: relative; }
+
+.topthree-h2 {
+  font-family: "Roboto", sans-serif;
+  color: #3B3D3E;
+  font-size: 2rem;
+  margin-left: 20px;
+  width: 300px;
+  height: 150px;
+  z-index: 100;
+  position: relative; }
+
+.explore-h2 {
+  font-family: "Roboto", sans-serif;
+  color: #3B3D3E;
+  font-size: 1rem;
+  margin-left: 20px; }
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: #3B3D3E;
+  margin-left: 20px; }
+
+li {
+  font-family: "Raleway", sans-serif;
+  color: #3B3D3E;
+  margin-left: 20px; }
+
+.now-italic {
+  font-style: italic;
+  color: #202020; }
+
+.button {
+  font-family: "Raleway", sans-serif;
+  color: #202020;
+  float: right;
+  font-size: 1.3rem;
+  margin-right: 20px;
+  text-decoration: none;
+  z-index: 100;
+  position: relative; }
+
+.button-explore {
+  font-family: "Raleway", sans-serif;
+  color: #202020;
+  font-size: 1.3rem;
+  text-align: center;
+  text-decoration: none;
+  z-index: 100;
+  position: relative; }
+
+.link {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: #3B3D3E;
+  margin-left: 30px; }
+
+p {
+  margin: 0; }
+
+.circle-background-home {
+  background-color: #FF6F61;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 140px;
+  position: absolute;
+  display: flex;
+  top: 70px;
+  left: 40px; }
+
+.circle-background-topthree {
+  background-color: #FF6F61;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 130px;
+  position: absolute;
+  display: flex;
+  top: 400px;
+  left: 160px; }
+
+.circle-background-explore {
+  background-color: #FF6F61;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 800px;
+  left: 50px; }
