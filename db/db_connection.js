@@ -2,16 +2,16 @@ const { Pool } = require('pg');
 const url = require('url');
 
 const env = require('env2');
-env('./config.env');
+env('../../config.env');
 
 let DB_URL = process.env.DB_URL;
-if(process.env.NODE_ENV === 'test') {
+if (process.env.NODE_ENV === 'test') {
     process.env.TEST_DB_URL;
 } else {
     process.env.DB_URL;
 }
 
-if(!url){
+if (!url) {
     throw new Error('Environment varibale DB_URL must be set');
 }
 
@@ -25,10 +25,10 @@ const options = {
     max: process.env.DB_MAX_CONNECTIONS || 2
 };
 
-if(username){
+if (username) {
     options.user = username;
 }
-if(password){
+if (password) {
     options.password = password;
 }
 
