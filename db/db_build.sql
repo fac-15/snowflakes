@@ -2,85 +2,86 @@ BEGIN;
 
 CREATE TABLE topthree (
     id SERIAL PRIMARY KEY,
-    top_one VARCHAR(200) NOT NULL,
-    top_two VARCHAR(200) NOT NULL,
-    top_three VARCHAR(200) NOT NULL
+    name VARCHAR(200) NOT NULL,
+    url VARCHAR(200) NOT NULL,
+    description VARCHAR(500)
 );
 
 CREATE TABLE organisations (
     id SERIAL PRIMARY KEY,
-    org_one VARCHAR(200) NOT NULL,
-    org_two VARCHAR(200) NOT NULL,
-    org_three VARCHAR(200) NOT NULL
+    name VARCHAR(200) NOT NULL,
+    url VARCHAR(200) NOT NULL,
+    description VARCHAR(500)
 );
 
 
 CREATE TABLE events (
     id SERIAL PRIMARY KEY,
-    event_one VARCHAR(200) NOT NULL,
-    event_two VARCHAR(200) NOT NULL,
-    event_three VARCHAR(200) NOT NULL
+    name VARCHAR(200) NOT NULL,
+    url VARCHAR(200) NOT NULL,
+    description VARCHAR(500)
 );
 
 
 CREATE TABLE charities (
     id SERIAL PRIMARY KEY,
-    charity_one VARCHAR(200) NOT NULL,
-    charity_two VARCHAR(200) NOT NULL,
-    charity_three VARCHAR(200) NOT NULL
+    name VARCHAR(200) NOT NULL,
+    url VARCHAR(200) NOT NULL,
+    description VARCHAR(500)
 );
 
 
 CREATE TABLE petitions (
     id SERIAL PRIMARY KEY,
-    petition_one VARCHAR(200) NOT NULL,
-    petition_two VARCHAR(200) NOT NULL,
-    petition_three VARCHAR(200) NOT NULL
+    name VARCHAR(200) NOT NULL,
+    url VARCHAR(200) NOT NULL,
+    description VARCHAR(500)
 );
 
 CREATE TABLE followers (
     id SERIAL PRIMARY KEY,
-    follower_one VARCHAR(200) NOT NULL,
-    follower_two VARCHAR(200) NOT NULL,
-    followers_three VARCHAR(200) NOT NULL
+    name VARCHAR(200) NOT NULL,
+    url VARCHAR(200) NOT NULL,
+    description VARCHAR(500)
 );
 
-INSERT INTO petitions (petition_one, petition_two, petition_three) VALUES
+INSERT INTO petitions (name, url, description) VALUES
 (
     'petition_one',
-    'petition_two',
-    'petition_three'
+    'http://neopets.com',
+    'Only the best website in the history of the internet',
+
 );
 
-INSERT INTO topthree (top_one, top_two, top_three) VALUES
+INSERT INTO topthree (name, url, description) VALUES
 (
-    'top_one',
-    'top_two',
-    'top_three'
+  'topthree_data',
+  'http://neopets.com',
+  'Only the best website in the history of the internet'
 );
-INSERT INTO organisations (org_one, org_two, org_three) VALUES
+INSERT INTO organisations (name, url, description) VALUES
 (
-    'org_one',
-    'org_two',
-    'org_three'
+  'organizations_data',
+  'http://neopets.com',
+  'Only the best website in the history of the internet'
 );
-INSERT INTO events (event_one, event_two, event_three) VALUES
+INSERT INTO events (name, url, description) VALUES
 (
-    'event_one',
-    'event_two',
-    'event_three'
+  'events_data',
+  'http://neopets.com',
+  'Only the best website in the history of the internet'
 );
-INSERT INTO charities (charity_one, charity_two, charity_three) VALUES
+INSERT INTO charities (name, url, description) VALUES
 (
-    'charity_one',
-    'charity_two',
-    'charity_three'
+  'charities_data',
+  'http://neopets.com',
+  'Only the best website in the history of the internet'
 );
-INSERT INTO followers (follower_one, follower_two, followers_three) VALUES
+INSERT INTO followers (name, url, description) VALUES
 (
-    'follower_one',
-    'follower_two',
-    'followers_three'
+  'followers_data',
+  'http://neopets.com',
+  'Only the best website in the history of the internet'
 );
 
 COMMIT;
