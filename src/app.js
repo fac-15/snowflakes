@@ -30,22 +30,18 @@ app.engine(
         partialsDir: path.join(__dirname, 'views', 'partials'),
         layoutsDir: path.join(__dirname, 'views', 'layouts'),
         defaultLayout: 'main',
-        helpers: helpers
+        helpersDir: path.join(__dirname, 'views', 'helpers')
     })
 );
 
 app.get('/', (req, res) => {
     res.render('home');
 });
+// 
+// app.get('/explore', (req, res) => {
+//     res.render('explore');
+// });
 
-app.get('/topthree', (req, res) => {
-    res.render('topthree');
-});
-
-app.get('/explore', (req, res) => {
-    res.render('explore');
-});
-
-// app.use(controllers);
+app.use(controllers);
 
 module.exports = app;
