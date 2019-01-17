@@ -1,7 +1,7 @@
 module.exports = {
     getCharities: require('./getCharities'),
-    getEvents: require('./getEvents')
-    // getOrgs: require('./getOrgs'),
-    // getPetitions: require('./getPetitions'),
-    // getSocials: require('./getSocials')
+    getEvents: require('./getEvents'),
+    getOrganisations: require('./getOrganisations'),
+    getPetitions: require('./getPetitions'),
+    getSocials: require('./getSocials')
 };

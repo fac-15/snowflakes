@@ -26,6 +26,36 @@ results.getEvents((error, eventData) => {
     }
 });
 
+results.getOrganisations((error, orgData) => {
+    if (error) {
+        console.log('Error in getOrganisation controller: ', error);
+    } else {
+        //console.log('get req-ed: ', req);
+        console.log('getOrg controller data: ', orgData);
+        finalData.organisation = orgData;
+    }
+});
+
+results.getPetitions((error, petitionData) => {
+    if (error) {
+        console.log('Error in getPetition controller: ', error);
+    } else {
+        //console.log('get req-ed: ', req);
+        console.log('getPetition controller data: ', petitionData);
+        finalData.petition = petitionData;
+    }
+});
+
+results.getSocials((error, socialData) => {
+    if (error) {
+        console.log('Error in getSocial controller: ', error);
+    } else {
+        //console.log('get req-ed: ', req);
+        console.log('getSocial controller data: ', socialData);
+        finalData.social = socialData;
+    }
+});
+
 exports.get = (req, res) => {
     res.render('explore', finalData);
 };
