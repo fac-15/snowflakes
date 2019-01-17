@@ -67,7 +67,7 @@ INSERT INTO events (name, date, url, description) VALUES
   'The synergies and trade-offs in tackling air pollution and climate change',
   '2019-01-30',
   'https://www.eventbrite.co.uk/e/the-synergies-and-trade-offs-in-tackling-air-pollution-and-climate-change-tickets-53910338273?aff=ebdssbdestsearch',
-  'There are significant overlaps in tackling air pollution and the climate crisis. Decarbonisation can have the added benefits of reducing other non-greenhouse-gas pollutants, and thus improve air quality. However, there can also be trade-offs in tackling the two problems. One such example is the switch within the European Union to diesel cars, whilst it has the aim of reducing CO2 emissions, there was a detrimental effect on air quality due to increased NO2 and particulate matter. This panel discussion brings together experts in the field to discuss the synergies and trade-offs in addressing climate change and air pollution.'
+  'This panel discussion brings together experts in the field to discuss the synergies and trade-offs in addressing climate change and air pollution.'
 );
 INSERT INTO events (name, date, url, description) VALUES
 (
@@ -79,13 +79,14 @@ INSERT INTO events (name, date, url, description) VALUES
 INSERT INTO events (name, date, url, description) VALUES
 (
   'Building a Rebellion // Workshop and Social',
-  '2019-01-18'
+  '2019-01-18',
   'https://www.eventbrite.co.uk/e/building-a-rebellion-workshop-and-social-part-of-self-organising-week-at-grow-tickets-54341413631?aff=ebdssbdestsearch',
   'Help us build a rebellion against the extinction of life on earth! This event has a focus on direct action to climate change.'
 );
 INSERT INTO events (name, date, url, description) VALUES
 (
   'Groundswell London',
+  '2019-04-27',
   'https://www.eventbrite.co.uk/e/groundswell-london-tickets-54637301640?aff=ebdssbdestsearch#tickets',
   'The mix of informative sessions, practical workshops and stimulating talks means there’s something for everyone. So whether you’re just starting your journey for climate action or a seasoned climate campaigner, taking part in Groundswell will be your next step to creating a better future.'
 );
@@ -100,27 +101,27 @@ INSERT INTO donate (name, url, description) VALUES
 );
 INSERT INTO donate (name, url, description) VALUES
 (
-  'donate_data',
-  'http://neopets.com',
-  'Only the best website in the history of the internet'
+  'Extinction Rebellion',
+  'https://fundrazr.com/ExtinctionRebellion?ref=ab_2qHfMwo6qKx2qHfMwo6qKx',
+  null
 );
 INSERT INTO donate (name, url, description) VALUES
 (
-  'donate_data',
-  'http://neopets.com',
-  'Only the best website in the history of the internet'
+  'The Climate Coalition',
+  'https://www.theclimatecoalition.org/give/',
+  null
 );
 INSERT INTO donate (name, url, description) VALUES
 (
-  'donate_data',
-  'http://neopets.com',
-  'Only the best website in the history of the internet'
+  'Friends of the Earth',
+  'https://act.friendsoftheearth.uk/donate/make-donation?utm_source=FN181HERO',
+  null
 );
 INSERT INTO donate (name, url, description) VALUES
 (
-  'donate_data',
-  'http://neopets.com',
-  'Only the best website in the history of the internet'
+  'World Wildlife Fund',
+  'https://www.wwf-adopt-a-animal.co.uk/charities/wwf-animal-adoptions/?keyword=wwf%20donate&device=c&vm=brand',
+  null
 );
 
 ------------------------------------- PETITIONS ------------------------------------------------------
@@ -148,21 +149,21 @@ INSERT INTO petitions (name, url, description) VALUES
 
 INSERT INTO socials (name, url, description) VALUES
 (
-  'followers_data',
-  'http://neopets.com',
-  'Only the best website in the history of the internet'
+  'Steve Masters',
+  'https://twitter.com/AnothervoiceWB',
+  '@AnothervoiceWB'
 );
 INSERT INTO socials (name, url, description) VALUES
 (
-  'followers_data',
-  'http://neopets.com',
-  'Only the best website in the history of the internet'
+  'Rupert Read',
+  'https://twitter.com/GreenRupertRead',
+  '@greenrubertread'
 );
 INSERT INTO socials (name, url, description) VALUES
 (
-  'followers_data',
-  'http://neopets.com',
-  'Only the best website in the history of the internet'
+  'Carline Lucas',
+  'https://twitter.com/CarolineLucas',
+  '@CarolineLucas'
 );
 
 
