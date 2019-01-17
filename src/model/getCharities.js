@@ -13,9 +13,9 @@ const getCharities = cb => {
     });
 };
 
-getCharities((error, response) => {
-    if (error) console.log(error);
-    console.log(response);
-});
+// getCharities((error, response) => {
+//     if (error) console.log(error);
+//     console.log(response);
+// });
 
 module.exports = getCharities;
