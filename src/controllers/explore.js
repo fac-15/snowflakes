@@ -6,13 +6,13 @@ exports.get = (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'views', 'explore.hbs'));
 };
 
-results.getCharities((error, charityData) => {
+results.getDonate((error, donateData) => {
     if (error) {
-        console.log('Error in getCharity controller: ', error);
+        console.log('Error in getDonate controller: ', error);
     } else {
         //console.log('get req-ed: ', req);
-        console.log('getCharity controller data: ', charityData);
-        finalData.charity = charityData;
+        console.log('getDonate controller data: ', donateData);
+        finalData.donate = donateData;
     }
 });
 

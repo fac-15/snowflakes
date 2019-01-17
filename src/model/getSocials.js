@@ -1,7 +1,7 @@
 const dbConnection = require('./db/db_connection.js');
 
 const getSocials = cb => {
-    dbConnection.query('SELECT * from followers', (err, res) => {
+    dbConnection.query('SELECT * from socials', (err, res) => {
         if (err) {
             console.log(
                 `You have an error fetching data from Socials table: ${err}`
