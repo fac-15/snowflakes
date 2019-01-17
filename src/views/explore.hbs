@@ -1,12 +1,15 @@
 <h2>Make your move, snowflake.</h2>
 <p>Here are some other actions <br>that you can take right now:</p>
 
-<p>Charity data test:</p>
+<p>Data test:</p>
 <ul>
     {{#each charity}}
       <li><a href="{{url}}" target="blank">{{name}}</a></li>
     {{/each}}
-  </ul>
+    {{#each event}}
+      <li><a href="{{url}}" target="blank">{{name}}</a></li>
+    {{/each}}
+</ul>
 
 
 <h3>Your Top 3</h3>
