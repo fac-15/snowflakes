@@ -18,12 +18,13 @@ CREATE TABLE organisations (
 CREATE TABLE events (
     id SERIAL PRIMARY KEY,
     name VARCHAR(200) NOT NULL,
+    date DATE,
     url VARCHAR(200) NOT NULL,
     description VARCHAR(500)
 );
 
 
-CREATE TABLE charities (
+CREATE TABLE donate (
     id SERIAL PRIMARY KEY,
     name VARCHAR(200) NOT NULL,
     url VARCHAR(200) NOT NULL,
@@ -38,7 +39,7 @@ CREATE TABLE petitions (
     description VARCHAR(500)
 );
 
-CREATE TABLE followers (
+CREATE TABLE socials (
     id SERIAL PRIMARY KEY,
     name VARCHAR(200) NOT NULL,
     url VARCHAR(200) NOT NULL,
@@ -132,42 +133,42 @@ INSERT INTO events (name, url, description) VALUES
   'Only the best website in the history of the internet'
 );
 
-INSERT INTO charities (name, url, description) VALUES
+INSERT INTO donate (name, url, description) VALUES
 (
-  'charities_data_1',
+  'donate_data_1',
   'http://neopets.com',
   'Only the best website in the history of the internet'
 );
 
-INSERT INTO charities (name, url, description) VALUES
+INSERT INTO donate (name, url, description) VALUES
 (
-  'charities_data_2',
+  'donate_data_2',
   'http://neopets.com',
   'Only the best website in the history of the internet'
 );
 
-INSERT INTO charities (name, url, description) VALUES
+INSERT INTO donate (name, url, description) VALUES
 (
-  'charities_data_3',
+  'donate_data_3',
   'http://neopets.com',
   'Only the best website in the history of the internet'
 );
 
-INSERT INTO followers (name, url, description) VALUES
+INSERT INTO socials (name, url, description) VALUES
 (
   'followers_data_1',
   'http://neopets.com',
   'Only the best website in the history of the internet'
 );
 
-INSERT INTO followers (name, url, description) VALUES
+INSERT INTO socials (name, url, description) VALUES
 (
   'followers_data_2',
   'http://neopets.com',
   'Only the best website in the history of the internet'
 );
 
-INSERT INTO followers (name, url, description) VALUES
+INSERT INTO socials (name, url, description) VALUES
 (
   'followers_data_3',
   'http://neopets.com',
