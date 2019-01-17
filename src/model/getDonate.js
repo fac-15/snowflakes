@@ -1,10 +1,10 @@
 const dbConnection = require('./db/db_connection.js');
 
-const getCharities = cb => {
-    dbConnection.query('SELECT * from charities', (err, res) => {
+const getDonate = cb => {
+    dbConnection.query('SELECT * from donate', (err, res) => {
         if (err) {
             console.log(
-                `You have an error fetching data from Charities table: ${err}`
+                `You have an error fetching data from Donate table: ${err}`
             );
             return cb(err);
         } else {
@@ -18,4 +18,4 @@ const getCharities = cb => {
 //     console.log(response);
 // });
 
-module.exports = getCharities;
+module.exports = getDonate;
