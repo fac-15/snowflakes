@@ -5,7 +5,6 @@ const favicon = require('serve-favicon');
 const bodyParser = require('body-parser');
 const compression = require('compression');
 const controllers = require('./controllers/index');
-const helpers = require('./views/helpers/index.js');
 
 //create express app
 const app = express();
@@ -30,22 +29,11 @@ app.engine(
         partialsDir: path.join(__dirname, 'views', 'partials'),
         layoutsDir: path.join(__dirname, 'views', 'layouts'),
         defaultLayout: 'main',
-        helpers: helpers
+        helpersDir: path.join(__dirname, 'views', 'helpers')
     })
 );
 
-app.get('/', (req, res) => {
-    res.render('home');
-});
 
-app.get('/topthree', (req, res) => {
-    res.render('topthree');
-});
-
-app.get('/explore', (req, res) => {
-    res.render('explore');
-});
-
-// app.use(controllers);
+app.use(controllers);
 
 module.exports = app;
