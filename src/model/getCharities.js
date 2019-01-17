@@ -1,4 +1,4 @@
-const dbConnection = require('../../db/db_connection.js');
+const dbConnection = require('./db/db_connection.js');
 
 const getCharities = cb => {
     dbConnection.query('SELECT * from charities', (err, res) => {

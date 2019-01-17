@@ -49,8 +49,7 @@ INSERT INTO petitions (name, url, description) VALUES
 (
     'petition_one',
     'http://neopets.com',
-    'Only the best website in the history of the internet',
-
+    'Only the best website in the history of the internet'
 );
 
 INSERT INTO topthree (name, url, description) VALUES
