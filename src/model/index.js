@@ -1,3 +1,4 @@
+//exports all db calls to be used in controllers
 module.exports = {
     getDonate: require('./getDonate'),
     getEvents: require('./getEvents'),
