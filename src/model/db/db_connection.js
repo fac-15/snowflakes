@@ -6,7 +6,7 @@ env('config.env');
 
 let DB_URL = process.env.DB_URL;
 if (process.env.NODE_ENV === 'test') {
-    process.env.TEST_DB_URL;
+    DB_URL = process.env.TEST_DB_URL;
 } else {
     process.env.DB_URL;
 }
