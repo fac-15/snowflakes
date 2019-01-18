@@ -1,26 +1,6 @@
 <h2>Make your move, snowflake.</h2>
 <p>Here are some other actions <br>that you can take right now:</p>
 
-<p>Data test:</p>
-<ul>
-    {{#each charity}}
-      <li><a href="{{url}}" target="blank">{{name}}</a></li>
-    {{/each}}
-    {{#each event}}
-      <li><a href="{{url}}" target="blank">{{name}}</a></li>
-    {{/each}}
-    {{#each organisation}}
-      <li><a href="{{url}}" target="blank">{{name}}</a></li>
-    {{/each}}
-    {{#each petition}}
-      <li><a href="{{url}}" target="blank">{{name}}</a></li>
-    {{/each}}
-    {{#each social}}
-      <li><a href="{{url}}" target="blank">{{name}}</a></li>
-    {{/each}}
-</ul>
-
-
 <h3>Your Top 3</h3>
 <ul class="action-category">
     <li>Donate £ to Greenpeace</li>
@@ -32,35 +12,45 @@
 
 <h3>Organizations to Follow</h3>
 <ul class="action-category">
-    <li>Oxfam</li>
+    {{#each organisations}}
+      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
+    {{/each}}
 </ul>
 
 <hr>
 
 <h3>Events to Attend</h3>
 <ul class="action-category">
-    <li>Climate science talk with renowned environmental campaigner Aubrey Meyer</li>
+    {{#each events}}
+      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
+    {{/each}}
 </ul>
 
 <hr>
 
 <h3>Contribute to a Charity</h3>
 <ul class="action-category">
-    <li>My beer fund</li>
+    {{#each donate}}
+      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
+    {{/each}}
 </ul>
 
 <hr>
 
 <h3>Support a Petition</h3>
 <ul class="action-category">
-    <li>let us go home early</li>
+    {{#each petitions}}
+      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
+    {{/each}}
 </ul>
 
 <hr>
 
 <h3>Follow Prominent Activists</h3>
 <ul class="action-category">
-    <li>Kristina</li>
+    {{#each socials}}
+      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
+    {{/each}}
 </ul>
 
 <hr>
