@@ -1,11 +1,12 @@
 // Typography
-$h1-font-roboto: 'Roboto', sans-serif;
+$h1-font: 'Playfair Display', serif;
+$h2-font: 'Raleway', sans-serif;
 $body-font-raleway: 'Raleway', sans-serif;
 $quote-font-open-sans: 'Open Sans', sans-serif;
 
 // Colors
-$main-text-color-black: #3B3D3E;
-$background-color-white: #FFFEFD;
+$main-text-color-black: #393D3F;
+$background-color-white: #FFF8F8;
 $highlight-color-orange: #FF6F61;
 $highlight-color-blue: #BDE2FF;
 $highlight-color-green: #97DDDF;
@@ -16,7 +17,6 @@ $bold-text-color-black: #202020;
 ********************************/
 .italic{
   font-style: italic;
-  color: $bold-text-color-black;
 }
 
 .bold {
@@ -26,6 +26,26 @@ $bold-text-color-black: #202020;
 .sub-heading {
   font-size: 2.2rem;
 }
+
+.highlight{
+  color: $highlight-color-orange;
+  font-weight: 700;
+}
+
+.size20 {
+  font-size: 20px;
+}
+
+.fas {
+  color: #FF6F61;
+  font-size: 2em;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+
 //mixins
 
 
@@ -33,52 +53,85 @@ $bold-text-color-black: #202020;
 body {
   color: $main-text-color-black;
   background-color: $background-color-white;
+  margin: 10px 10px 10px 10px;
 }
 
 .container {
-  margin: 5px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+
+/*******************************
+*         Landing Page         *
+********************************/
+header {
+  position: relative;
+  top: 29px;
 }
 
 h1 {
-  font-family: $h1-font-roboto;
-  color: $bold-text-color-black;
-  font-size: 3.5rem;
-  margin-top: 100px;
-  margin-left: 20px;
-  z-index: 100;
   position: relative;
-}
-
-.explore-h1{
-  font-family: $h1-font-roboto;
-  color: $bold-text-color-black;
-  font-size: 2.2rem;
-  margin: 0;
-  margin-top: 20px;
-  margin-left: 20px;
+  font-family: $h1-font;
+  color: #393D3F;
+  font-size: 2.8rem;
+  letter-spacing: 0.1em;
+  margin-top: 40%;
+  margin-left: 4%;
+  line-height: 38px;
+  z-index: 100;
+  top: -1px;
 }
 
 h2 {
-  font-family: $h1-font-roboto;
   margin: 20px 15px;
 }
 
-.sub-title {
-  color: $main-text-color-black;
-  width: 280px;
-  height: 250px;
-  z-index: 100;
-  line-height: 2.5rem;
+#sub-title-container {
   position: relative;
-  top: -22px;
-  padding-left: 42px;
-  font-size: 2rem;
-  font-weight: 200;
-  font-family: $body-font-raleway;
+  top: -23px;
+  left: 102px;
 }
 
+#border {
+  border: 2px solid $main-text-color-black;
+  border-radius: 10px;
+  height: 199px;
+  width: 210px;
+  position: relative;
+  left: -24px;
+}
+
+#border-breaker {
+  height: 180px;
+  width: 214px;
+  background-color: #FFF8F8;
+  position: relative;
+  top: -265px;
+  left: -31px;
+}
+
+.sub-title {
+  font-family: $h2-font;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: right;
+  line-height: normal;
+  color: $main-text-color-black;
+  z-index: 100;
+  width: 188px;
+  position: relative;
+  top: -394px;
+  left: -24px;
+}
+
+.fas-home{
+  top: -385px;
+}
+
+
 .topthree-h2 {
-  font-family: $h1-font-roboto;
   color: $main-text-color-black;
   font-size: 2rem;
   margin-left: 20px;
@@ -88,15 +141,26 @@ h2 {
   position: relative;
 }
 
+
+/*******************************
+*         Explore Page         *
+********************************/
+
+.explore-h1{
+  color: $bold-text-color-black;
+  font-size: 1.2rem;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 .explore-h2{
-  font-family: $h1-font-roboto;
   color: $main-text-color-black;
   font-size: 1rem;
   margin-left: 20px;
 }
 
 h3{
-  font-family: $h1-font-roboto;
   color: $main-text-color-black;
   margin-left: 20px;
 }
@@ -152,33 +216,3 @@ p {
   margin: 0;
 }
 
-.circle-bg {
-  background-color: $highlight-color-orange;
-  width: 16rem;
-  height: 16rem;
-  border-radius: 140px;
-  position: absolute;
-  display: flex;
-  -moz-box-shadow:    inset 0 0 20px 5px #ff5442;
-  -webkit-box-shadow: inset 0 0 20px 5px #ff5442;
-  box-shadow:         inset 0 0 20px 5px #ff5442;
-  -webkit-box-shadow: 10px 8px 6px -6px #b4b4b4;
-  -moz-box-shadow: 10px 8px 6px -6px #b4b4b4;
-  box-shadow: 10px 8px 6px -6px #b4b4b4;
-}
-
-.circle-bg__middle {
-  top: 70px;
-  left: 40px;
-}
-
-.circle-bg__bottom-right {
-  top: 520px;
-  left: 160px;
-}
-
-.circle-bg__bottom-middle {
-  display: block;
-  top: 800px;
-  left: 50px;
-}
