@@ -1,16 +1,15 @@
 const dbConnection = require('./db/db_connection.js');
 
-const getEvents = cb => {
+const getEvents = new Promise((resolve, reject) => {
     dbConnection.query('SELECT * from events', (err, res) => {
         if (err) {
-            console.log(
+            reject(
                 `You have an error fetching data from Events table: ${err}`
             );
-            return cb(err);
         } else {
-            return cb(null, res.rows);
+            resolve(res.rows);
         }
     });
-};
+});
 
 module.exports = getEvents;
