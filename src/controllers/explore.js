@@ -1,8 +1,8 @@
 const path = require('path');
 const results = require('../model/index');
+//empty object to be populated by db calls and passed to res.render at the end
+let finalData = {};
 const pg = require('pg');
-
-
 
 exports.get = (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'views', 'explore.hbs'));

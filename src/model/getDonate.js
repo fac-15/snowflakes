@@ -10,6 +10,7 @@ const getDonate = new Promise((resolve, reject) => {
             resolve(res.rows);
         }
     });
-});
+};
+
 
 module.exports = getDonate;
