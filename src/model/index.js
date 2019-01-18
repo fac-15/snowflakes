@@ -1,5 +1,5 @@
 module.exports = {
-    getCharities: require('./getCharities'),
+    getDonate: require('./getDonate'),
     getEvents: require('./getEvents'),
     getOrganisations: require('./getOrganisations'),
     getPetitions: require('./getPetitions'),
