@@ -17,13 +17,4 @@ const getDonateRandom = cb => {
     );
 };
 
-getDonateRandom((error, donateRandomData) => {
-    if (error) {
-        console.log('Error in getDonateRandom controller: ', error);
-    } else {
-        console.log('getDonate controller data: ', donateRandomData);
-        //finalData.donateRandom = donateRandomData;
-    }
-});
-
 module.exports = getDonateRandom;

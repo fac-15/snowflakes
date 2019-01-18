@@ -4,5 +4,6 @@ module.exports = {
     getEvents: require('./getEvents'),
     getOrganisations: require('./getOrganisations'),
     getPetitions: require('./getPetitions'),
-    getSocials: require('./getSocials')
+    getSocials: require('./getSocials'),
+    getDonateRandom: require('./getDonateRandom')
 };
