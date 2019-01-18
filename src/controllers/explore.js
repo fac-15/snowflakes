@@ -1,66 +1,25 @@
 const path = require('path');
 const results = require('../model/index');
-let finalData = {};
+const pg = require('pg');
+
+
 
 exports.get = (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'views', 'explore.hbs'));
 };
 
-results.getCharities((error, charityData) => {
-    if (error) {
-        console.log('Error in getCharity controller: ', error);
-    } else {
-        //console.log('get req-ed: ', req);
-        console.log('getCharity controller data: ', charityData);
-        finalData.charity = charityData;
-    }
-});
-
-results.getEvents((error, eventData) => {
-    if (error) {
-        console.log('Error in getEvent controller: ', error);
-    } else {
-        //console.log('get req-ed: ', req);
-        console.log('getEvent controller data: ', eventData);
-        finalData.event = eventData;
-    }
-});
-
-results.getOrganisations((error, orgData) => {
-    if (error) {
-        console.log('Error in getOrganisation controller: ', error);
-    } else {
-        //console.log('get req-ed: ', req);
-        console.log('getOrg controller data: ', orgData);
-        finalData.organisation = orgData;
-    }
-});
-
-results.getPetitions((error, petitionData) => {
-    if (error) {
-        console.log('Error in getPetition controller: ', error);
-    } else {
-        //console.log('get req-ed: ', req);
-        console.log('getPetition controller data: ', petitionData);
-        finalData.petition = petitionData;
-    }
-});
-
-results.getSocials((error, socialData) => {
-    if (error) {
-        console.log('Error in getSocial controller: ', error);
-    } else {
-        //console.log('get req-ed: ', req);
-        console.log('getSocial controller data: ', socialData);
-        finalData.social = socialData;
-    }
-});
-
 exports.get = (req, res) => {
-    res.render('explore', finalData);
-};
+    Promise.all([results.getDonate, results.getEvents, results.getOrganisations, results.getPetitions, results.getSocials]).then(values => {
+        let finalData = {
+            donate: values[0],
+            events: values[1],
+            organisations: values[2],
+            petitions: values[3],
+            socials: values[4]
+        };
+        res.render('explore', finalData);
+    }).catch((err) => {
+        console.log(`Looks like the blizzard has stopped due to ${err}`)
+    });
 
-// let test = results.getCharities((error, response) => {
-//     if (error) console.log(error);
-//     console.log(response);
-// });
+};
