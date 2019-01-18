@@ -9,37 +9,49 @@
 <hr>
 
 <h3>Organizations to Follow</h3>
-{{#each organisation}}
-  <li><a href="{{url}}" target="blank">{{name}}</a></li>
-{{/each}}
+<ul class="action-category">
+    {{#each organisations}}
+      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
+    {{/each}}
+</ul>
 
 <hr>
 
 <h3>Events to Attend</h3>
-{{#each event}}
-  <li><a href="{{url}}" target="blank">{{name}}</a></li>
-{{/each}}
+<ul class="action-category">
+    {{#each events}}
+      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
+    {{/each}}
+</ul>
 
 <hr>
 
-<h3>Donate to a Charity</h3>
-{{#each donate}}
-  <li><a href="{{url}}" target="blank">{{name}}</a></li>
-{{/each}}
+<h3>Contribute to a Charity</h3>
+<ul class="action-category">
+    {{#each donate}}
+      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
+    {{/each}}
+</ul>
 
 <hr>
 
 <h3>Support a Petition</h3>
-{{#each petition}}
-  <li><a href="{{url}}" target="blank">{{name}}</a></li>
-{{/each}}
+<ul class="action-category">
+    {{#each petitions}}
+      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
+    {{/each}}
+</ul>
+
 
 <hr>
 
 <h3>Follow Prominent Activists</h3>
-{{#each social}}
-  <li><a href="{{url}}" target="blank">{{name}}</a></li>
-{{/each}}
+<ul class="action-category">
+    {{#each socials}}
+      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
+    {{/each}}
+</ul>
+
 
 <hr>
 <div class='circle-background-explore'></div>
