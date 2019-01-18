@@ -9,9 +9,8 @@ exports.get = (req, res) => {
 results.getDonate((error, donateData) => {
     if (error) {
         console.log('Error in getDonate controller: ', error);
-    } else {
-        //console.log('get req-ed: ', req);
-        console.log('getDonate controller data: ', donateData);
+    }
+    else {
         finalData.donate = donateData;
     }
 });
@@ -19,9 +18,8 @@ results.getDonate((error, donateData) => {
 results.getEvents((error, eventData) => {
     if (error) {
         console.log('Error in getEvent controller: ', error);
-    } else {
-        //console.log('get req-ed: ', req);
-        console.log('getEvent controller data: ', eventData);
+    }
+    else {
         finalData.event = eventData;
     }
 });
@@ -29,9 +27,8 @@ results.getEvents((error, eventData) => {
 results.getOrganisations((error, orgData) => {
     if (error) {
         console.log('Error in getOrganisation controller: ', error);
-    } else {
-        //console.log('get req-ed: ', req);
-        console.log('getOrg controller data: ', orgData);
+    }
+    else {
         finalData.organisation = orgData;
     }
 });
@@ -39,9 +36,8 @@ results.getOrganisations((error, orgData) => {
 results.getPetitions((error, petitionData) => {
     if (error) {
         console.log('Error in getPetition controller: ', error);
-    } else {
-        //console.log('get req-ed: ', req);
-        console.log('getPetition controller data: ', petitionData);
+    }
+    else {
         finalData.petition = petitionData;
     }
 });
@@ -49,9 +45,8 @@ results.getPetitions((error, petitionData) => {
 results.getSocials((error, socialData) => {
     if (error) {
         console.log('Error in getSocial controller: ', error);
-    } else {
-        //console.log('get req-ed: ', req);
-        console.log('getSocial controller data: ', socialData);
+    }
+    else {
         finalData.social = socialData;
     }
 });
@@ -59,8 +54,3 @@ results.getSocials((error, socialData) => {
 exports.get = (req, res) => {
     res.render('explore', finalData);
 };
-
-// let test = results.getCharities((error, response) => {
-//     if (error) console.log(error);
-//     console.log(response);
-// });
