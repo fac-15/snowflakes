@@ -21,5 +21,4 @@ exports.get = (req, res) => {
     }).catch((err) => {
         console.log(`Looks like the blizzard has stopped due to ${err}`)
     });
-
 };

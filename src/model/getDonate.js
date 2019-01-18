@@ -12,5 +12,4 @@ const getDonate = new Promise((resolve, reject) => {
     });
 });
 
-
 module.exports = getDonate;
