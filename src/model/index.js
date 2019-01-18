@@ -5,5 +5,7 @@ module.exports = {
     getOrganisations: require('./getOrganisations'),
     getPetitions: require('./getPetitions'),
     getSocials: require('./getSocials'),
-    getDonateRandom: require('./getDonateRandom')
+    getDonateRandom: require('./getDonateRandom'),
+    getOrganisationRandom: require('./getOrganisationRandom'),
+    getSocialRandom: require('./getSocialRandom')
 };
