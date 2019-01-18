@@ -20,7 +20,7 @@ results.getDonate((error, donateData) => {
 results.getEvents((error, eventData) => {
     if (error) {
         console.log('Error in getEvent controller: ', error);
-    } else {
+    } else { 
         finalData.event = eventData;
     }
 });
