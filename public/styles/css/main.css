@@ -2,163 +2,240 @@
 *            Helpers           *
 ********************************/
 .italic {
-  font-style: italic; }
+    font-style: italic;
+}
 
 .bold {
-  font-weight: 700; }
+    font-weight: 700;
+}
 
 .sub-heading {
-  font-size: 2.2rem; }
+    font-size: 2.2rem;
+}
 
 .highlight {
-  color: #FF6F61;
-  font-weight: 700; }
+    color: #ff6f61;
+    font-weight: 700;
+}
 
 .size20 {
-  font-size: 20px; }
+    font-size: 20px;
+}
 
 .fas {
-  color: #FF6F61;
-  font-size: 2em;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 15% 0 20% 0;
-
+    color: #ff6f61;
+    font-size: 2em;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15% 0 20% 0;
+}
 
 /*******   END HELPERS   *******/
 body {
-  color: #393D3F;
-  background-color: #FFF8F8;
-  margin: 10px 10px 10px 10px; }
+    color: #393d3f;
+    background-color: #fff8f8;
+    margin: 10px 10px 10px 10px;
+}
 
 .container {
-  margin: 10px 10px 10px 10px; }
+    margin: 10px 10px 10px 10px;
+}
 
 /*******************************
 *         Landing Page         *
 ********************************/
 header {
-  position: relative;
-  top: 29px; }
+    position: relative;
+    top: 29px;
+}
 
 h1 {
-  position: relative;
-  font-family: "Playfair Display", serif;
-  color: #393D3F;
-  font-size: 2.8rem;
-  letter-spacing: 0.1em;
-  margin: 40% 0 0 4%;
-  line-height: 38px;
-  z-index: 100;
-  top: -1px; }
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    color: #393d3f;
+    font-size: 2.8rem;
+    letter-spacing: 0.1em;
+    margin: 40% 0 0 4%;
+    line-height: 38px;
+    z-index: 100;
+    top: -1px;
+}
 
 h2 {
-  margin: 20px 15px; }
+    margin: 20px 15px;
+}
 
 #sub-title-container {
-  position: relative;
-  top: -23px;
-  left: 102px; }
+    position: relative;
+    top: -23px;
+    left: 102px;
+}
 
 #border {
-  border: 2px solid #393D3F;
-  border-radius: 10px;
-  height: 199px;
-  width: 210px;
-  position: relative;
-  left: -24px; }
+    border: 2px solid #393d3f;
+    border-radius: 10px;
+    height: 199px;
+    width: 210px;
+    position: relative;
+    left: -24px;
+}
 
 #border-breaker {
-  height: 180px;
-  width: 214px;
-  background-color: #FFF8F8;
-  position: relative;
-  top: -265px;
-  left: -31px; }
+    height: 180px;
+    width: 214px;
+    background-color: #fff8f8;
+    position: relative;
+    top: -265px;
+    left: -31px;
+}
 
 .sub-title {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  text-align: right;
-  line-height: normal;
-  color: #393D3F;
-  z-index: 100;
-  width: 188px;
-  position: relative;
-  top: -394px;
-  left: -24px; }
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: right;
+    line-height: normal;
+    color: #393d3f;
+    z-index: 100;
+    width: 188px;
+    position: relative;
+    top: -394px;
+    left: -24px;
+}
 
 .fas-home {
-  top: -385px; }
+    top: -385px;
+}
 
 .topthree-h2 {
-  color: #393D3F;
-  font-size: 2rem;
-  margin-left: 20px;
-  width: 300px;
-  height: 150px;
-  z-index: 100;
-  position: relative; }
+    color: #393d3f;
+    font-size: 2rem;
+    margin-left: 20px;
+    width: 300px;
+    height: 150px;
+    z-index: 100;
+    position: relative;
+}
 
 /*******************************
 *         Explore Page         *
 ********************************/
 .explore-h1 {
-  color: #202020;
-  font-size: 1.2rem;
-  margin: 20px 0px 0px 20px;
+    color: #202020;
+    font-size: 1.2rem;
+    margin: 20px 0px 0px 20px;
 }
 
 .explore-h2 {
-  color: #393D3F;
-  font-size: 1rem;
-  margin-left: 20px; }
+    color: #393d3f;
+    font-size: 1rem;
+    margin-left: 20px;
+}
 
 h3 {
-  color: #393D3F;
-  margin-left: 20px; }
+    color: #393d3f;
+    margin-left: 20px;
+}
 
 .item a {
-  padding: 5px 20px;
-  display: block;
-  height: 20px;
-  width: 200px;
-  margin: 5px; }
+    padding: 5px 20px;
+    display: block;
+    height: 20px;
+    width: 200px;
+    margin: 5px;
+}
 
 li {
-  font-family: "Raleway", sans-serif;
-  color: #393D3F;
-  margin-left: 20px; }
+    font-family: 'Raleway', sans-serif;
+    color: #393d3f;
+    margin-left: 20px;
+}
 
 .button {
-  font-family: "Raleway", sans-serif;
-  color: #202020;
-  float: right;
-  font-size: 1.3rem;
-  margin-right: 20px;
-  text-decoration: none;
-  z-index: 100;
-  position: relative;
-  top: 60px; }
+    font-family: 'Raleway', sans-serif;
+    color: #202020;
+    float: right;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    text-decoration: none;
+    z-index: 100;
+    position: relative;
+    top: 60px;
+}
 
 .button-explore {
-  font-family: "Raleway", sans-serif;
-  color: #202020;
-  font-size: 1.3rem;
-  text-align: center;
-  text-decoration: none;
-  z-index: 100;
-  position: relative; }
+    font-family: 'Raleway', sans-serif;
+    color: #202020;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    position: relative;
+}
 
 .link {
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  color: #393D3F;
-  margin-left: 30px; }
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #393d3f;
+    margin-left: 30px;
+}
 
 p {
-  margin: 0; }
+    margin: 0;
+}
+
+/*******************************
+*      Carousel Content       *
+********************************/
+
+.explore-carousel {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-content {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-content li {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.active {
+    /* copied from tutorial but needs to be changed */
+    height: 130px;
+}
+
+.active li {
+    position: absolute;
+    top: 200px;
+}
+
+.active li.current {
+    top: 30px;
+    transition: 0.5s;
+}
+
+.carouselContainer button {
+    border: none;
+    display: none;
+}
+
+.active button {
+    display: block;
+}
+
+.offscreen {
+    position: absolute;
+    left: -2000px;
+}

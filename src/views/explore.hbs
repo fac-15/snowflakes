@@ -9,11 +9,21 @@
 <hr>
 
 <h3>Organizations to Follow</h3>
-<ul class="action-category">
-    {{#each organisations}}
-      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
-    {{/each}}
-</ul>
+<div class="explore-carousel">
+  <div class="buttons">
+      <button class="prev">
+        ◀ <span class="offscreen">Previous</span>
+      </button>
+      <button class="next">
+        ▶ <span class="offscreen">Next</span>
+      </button>
+    </div>
+  <ul class="carousel-content">
+      {{#each organisations}}
+        <li><a href="{{url}}" target="_blank">{{name}}</a></li>
+      {{/each}}
+  </ul>
+</div>
 
 <hr>
 
