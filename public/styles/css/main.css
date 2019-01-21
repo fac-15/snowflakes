@@ -205,25 +205,27 @@ p {
     padding: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .carousel-content li {
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0;
     padding: 0;
     width: 100%;
     list-style: none;
     text-align: center;
+    max-width: 80vw;
 }
 
 .active {
     /* copied from tutorial but needs to be changed */
-    height: 130px;
+    min-height: 15vh;
 }
 
 .active li {
     position: absolute;
-    left: 0;
+    /* left: 0; */
 }
 
 .active li.current {
@@ -248,4 +250,18 @@ p {
 
 .hidden {
     display: none;
+}
+
+button.prev,
+button.next {
+    background: none;
+    border: none;
+    max-width: 10vw;
+    min-width: 10vw;
+    outline: none;
+}
+
+button.prev:hover,
+button.next:active {
+    color: black;
 }
