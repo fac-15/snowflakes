@@ -223,13 +223,12 @@ p {
 
 .active li {
     position: absolute;
-    top: 200px;
     left: 0;
 }
 
 .active li.current {
     top: 30px;
-    transition: 0.5s;
+    display: inline;
 }
 
 .carouselContainer button {
@@ -245,4 +244,8 @@ p {
 .offscreen {
     position: absolute;
     left: -2000px;
+}
+
+.hidden {
+    display: none;
 }
