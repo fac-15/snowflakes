@@ -15,11 +15,11 @@
         "sourceType": "module"
     },
     "rules": {
+        "global-require": 0,
         "no-unused-vars": "off",
         "import/no-nodejs-modules": "off",
         "no-console": "off",
         "import/no-commonjs": "off",
-        "sourceType": "module",
         "global-require": "error",
         "indent": [
             "error",
