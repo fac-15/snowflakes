@@ -1,0 +1,13 @@
+<div class="explore-carousel">
+      <button class="prev">
+        ◀ <span class="offscreen">Previous</span>
+      </button>
+  <ul class="carousel-content">
+      {{#each {{category}}}}
+        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+      {{/each}}
+  </ul>
+  <button class="next">
+    ▶ <span class="offscreen">Next</span>
+  </button>
+</div>

@@ -1,16 +1,15 @@
 const dbConnection = require('./db/db_connection.js');
 
-const getOrganisations = cb => {
+const getOrganisations = new Promise((resolve, reject) => {
     dbConnection.query('SELECT * from organisations', (err, res) => {
         if (err) {
-            console.log(
+            reject(
                 `You have an error fetching data from Organisations table: ${err}`
             );
-            return cb(err);
         } else {
-            return cb(null, res.rows);
+            resolve(res.rows);
         }
     });
-};
+});
 
 module.exports = getOrganisations;

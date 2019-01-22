@@ -9,37 +9,99 @@
 <hr>
 
 <h3>Organizations to Follow</h3>
-{{#each organisation}}
-  <li><a href="{{url}}" target="blank">{{name}}</a></li>
-{{/each}}
+<div class="explore-carousel">
+      <button class="prev">
+        <div class="fas fa-chevron-circle-left"></div>
+        <span class="offscreen">Previous</span>
+      </button>
+  <ul class="carousel-content">
+      {{#each organisations}}
+        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+      {{/each}}
+  </ul>
+  <button class="next">
+    <div class="fas fa-chevron-circle-right"></div>
+    <span class="offscreen">Next</span>
+  </button>
+</div>
 
 <hr>
 
 <h3>Events to Attend</h3>
-{{#each event}}
-  <li><a href="{{url}}" target="blank">{{name}}</a></li>
-{{/each}}
+<div class="explore-carousel">
+      <button class="prev">
+        <div class="fas fa-chevron-circle-left"></div>
+        <span class="offscreen">Previous</span>
+      </button>
+  <ul class="carousel-content">
+      {{#each events}}
+        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+      {{/each}}
+  </ul>
+  <button class="next">
+    <div class="fas fa-chevron-circle-right"></div>
+    <span class="offscreen">Next</span>
+  </button>
+</div>
 
 <hr>
 
-<h3>Donate to a Charity</h3>
-{{#each donate}}
-  <li><a href="{{url}}" target="blank">{{name}}</a></li>
-{{/each}}
+<h3>Contribute to a Charity</h3>
+<div class="explore-carousel">
+      <button class="prev">
+        <div class="fas fa-chevron-circle-left"></div>
+        <span class="offscreen">Previous</span>
+      </button>
+  <ul class="carousel-content">
+      {{#each donate}}
+        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+      {{/each}}
+  </ul>
+  <button class="next">
+    <div class="fas fa-chevron-circle-right"></div>
+    <span class="offscreen">Next</span>
+  </button>
+</div>
 
 <hr>
 
 <h3>Support a Petition</h3>
-{{#each petition}}
-  <li><a href="{{url}}" target="blank">{{name}}</a></li>
-{{/each}}
+<div class="explore-carousel">
+      <button class="prev">
+        <div class="fas fa-chevron-circle-left"></div>
+        <span class="offscreen">Previous</span>
+      </button>
+  <ul class="carousel-content">
+      {{#each petitions}}
+        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+      {{/each}}
+  </ul>
+  <button class="next">
+    <div class="fas fa-chevron-circle-right"></div>
+    <span class="offscreen">Next</span>
+  </button>
+</div>
+
 
 <hr>
 
 <h3>Follow Prominent Activists</h3>
-{{#each social}}
-  <li><a href="{{url}}" target="blank">{{name}}</a></li>
-{{/each}}
+<div class="explore-carousel">
+      <button class="prev">
+        <div class="fas fa-chevron-circle-left"></div>
+        <span class="offscreen">Previous</span>
+      </button>
+  <ul class="carousel-content">
+      {{#each socials}}
+        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+      {{/each}}
+  </ul>
+  <button class="next">
+    <div class="fas fa-chevron-circle-right"></div>
+    <span class="offscreen">Next</span>
+  </button>
+</div>
+
 
 <hr>
 <div class='circle-background-explore'></div>

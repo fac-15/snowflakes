@@ -1,11 +1,12 @@
 // Typography
-$h1-font-roboto: 'Roboto', sans-serif;
+$h1-font: 'Playfair Display', serif;
+$h2-font: 'Raleway', sans-serif;
 $body-font-raleway: 'Raleway', sans-serif;
 $quote-font-open-sans: 'Open Sans', sans-serif;
 
 // Colors
-$main-text-color-black: #3B3D3E;
-$background-color-white: #FFFEFD;
+$main-text-color-black: #393D3F;
+$background-color-white: #FFF8F8;
 $highlight-color-orange: #FF6F61;
 $highlight-color-blue: #BDE2FF;
 $highlight-color-green: #97DDDF;
@@ -14,9 +15,16 @@ $bold-text-color-black: #202020;
 /*******************************
 *            Helpers           *
 ********************************/
+
+.iphone5-page {
+  width: 100vw;
+  height: 100vh;
+}
+ .clear {
+   clear: both;
+ }
 .italic{
   font-style: italic;
-  color: $bold-text-color-black;
 }
 
 .bold {
@@ -26,6 +34,71 @@ $bold-text-color-black: #202020;
 .sub-heading {
   font-size: 2.2rem;
 }
+
+.h3-raleway {
+  font-family: $h2-font;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: right;
+  color: #393D3F;
+}
+
+.p-raleway {
+  font-family: $h2-font;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin: 20px;
+}
+
+.p-bold {
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.highlight{
+  color: $highlight-color-orange;
+  font-size: 25px;
+}
+
+.right {
+    float: right;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-25 {
+  font-size: 25px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.fas {
+  display: block !important;
+}
+
+.arrow-down {
+  color: #FF6F61;
+  font-size: 2em;
+  display: block;
+  height: 20px;
+  width: 20px;
+  transform: translateX(-50%);
+  margin: 78% auto 0;
+}
+
+.margin--btm50 {
+    margin-bottom: 50px;
+}
+
 //mixins
 
 
@@ -33,52 +106,108 @@ $bold-text-color-black: #202020;
 body {
   color: $main-text-color-black;
   background-color: $background-color-white;
+  margin: 10px 10px 10px 10px;
 }
 
-.container {
-  margin: 5px 10px;
+.arrow {
+    display: block;
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    background-repeat: no-repeat;
+}
+.arrow-right {
+    background-image: url(../../img/arr-right.png);
+    float: right;
+}
+.arrow-left {
+    background-image: url(../../img/arr-left.png);
+    float: left;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/*******************************
+*         Landing Page         *
+********************************/
+header {
+  margin-top: 12rem;
+  width: 320px;
+  height: 375px;
 }
 
 h1 {
-  font-family: $h1-font-roboto;
-  color: $bold-text-color-black;
-  font-size: 3.5rem;
-  margin-top: 100px;
-  margin-left: 20px;
+  font-family: $h1-font;
+  color: #393D3F;
+  font-size: 2.8rem;
+  letter-spacing: 0.1em;
+  padding-left: 4%;
+  line-height: 38px;
   z-index: 100;
-  position: relative;
-}
-
-.explore-h1{
-  font-family: $h1-font-roboto;
-  color: $bold-text-color-black;
-  font-size: 2.2rem;
-  margin: 0;
-  margin-top: 20px;
-  margin-left: 20px;
+  top: -1px;
+  width: 304px;
+  z-index: 100;
 }
 
 h2 {
-  font-family: $h1-font-roboto;
   margin: 20px 15px;
 }
 
-.sub-title {
-  color: $main-text-color-black;
-  width: 280px;
-  height: 250px;
-  z-index: 100;
-  line-height: 2.5rem;
-  position: relative;
-  top: -22px;
-  padding-left: 42px;
-  font-size: 2rem;
-  font-weight: 200;
-  font-family: $body-font-raleway;
+.sub-title-container {
+  position: absolute;
+  padding-left: 6.3rem;
+  height: 200px;
+  width: 200px;
+  z-index: -1;
+  top: 17rem;
 }
 
+.border {
+  border: 0.5px solid $main-text-color-black;
+  border-radius: 10px;
+  height: 199px;
+  width: 210px;
+  position: relative;
+  left: -24px;
+}
+
+.border-breaker {
+  height: 180px;
+  width: 214px;
+  background-color: #FFF8F8;
+  position: relative;
+  top: -265px;
+  left: -31px;
+}
+
+.sub-title {
+  font-family: $h2-font;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: right;
+  line-height: normal;
+  color: $main-text-color-black;
+  z-index: 100;
+  width: 188px;
+  position: relative;
+  top: -394px;
+  left: -24px;
+}
+
+#landing-page-main {
+  position: relative;
+  top: 10px;
+  margin: 1rem;
+}
+
+
 .topthree-h2 {
-  font-family: $h1-font-roboto;
   color: $main-text-color-black;
   font-size: 2rem;
   margin-left: 20px;
@@ -88,18 +217,25 @@ h2 {
   position: relative;
 }
 
-.explore-h2{
-  font-family: $h1-font-roboto;
+
+/*******************************
+*         Explore Page         *
+********************************/
+
+.explore-h1 {
+  color: $bold-text-color-black;
+  font-size: 1.2rem;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.explore-h2 {
   color: $main-text-color-black;
   font-size: 1rem;
   margin-left: 20px;
 }
 
-h3{
-  font-family: $h1-font-roboto;
-  color: $main-text-color-black;
-  margin-left: 20px;
-}
 .item {
   a {
     padding: 5px 20px;
@@ -109,8 +245,6 @@ h3{
     margin: 5px;
   }
 }
-
-
 
 li{
   font-family:$body-font-raleway;
@@ -130,7 +264,7 @@ li{
   top: 60px;
 }
 
-.button-explore{
+.button-explore {
   font-family:$body-font-raleway;
   color: $bold-text-color-black;
   font-size: 1.3rem;
@@ -152,33 +286,103 @@ p {
   margin: 0;
 }
 
-.circle-bg {
-  background-color: $highlight-color-orange;
-  width: 16rem;
-  height: 16rem;
-  border-radius: 140px;
-  position: absolute;
+/*****************************
+*         Quiz pages         *
+*****************************/
+
+.questions {
+    font-family: $h2-font;
+    margin-bottom: 100px;
+    .sub-heading {
+        font-size: 3rem;
+        font-weight: 100;
+    }
+    .swipe-ans {
+        color: $highlight-color-orange;
+        font-size: 2rem;
+        font-weight: 300;
+
+        p {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+/*******************************
+*      Carousel Content       *
+********************************/
+
+.explore-carousel {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
   display: flex;
-  -moz-box-shadow:    inset 0 0 20px 5px #ff5442;
-  -webkit-box-shadow: inset 0 0 20px 5px #ff5442;
-  box-shadow:         inset 0 0 20px 5px #ff5442;
-  -webkit-box-shadow: 10px 8px 6px -6px #b4b4b4;
-  -moz-box-shadow: 10px 8px 6px -6px #b4b4b4;
-  box-shadow: 10px 8px 6px -6px #b4b4b4;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.circle-bg__middle {
-  top: 70px;
-  left: 40px;
+.carousel-content {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.circle-bg__bottom-right {
-  top: 520px;
-  left: 160px;
+.carousel-content li {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  max-width: 80vw;
 }
 
-.circle-bg__bottom-middle {
+.active {
+  /* copied from tutorial but needs to be changed */
+  min-height: 15vh;
+}
+
+.active li {
+  position: absolute;
+  /* left: 0; */
+}
+
+.active li.current {
+  top: 30px;
+  display: inline;
+}
+
+.carouselContainer button {
+  border: none;
+  display: none;
+}
+
+.active button {
   display: block;
-  top: 800px;
-  left: 50px;
+  z-index: 1;
+}
+
+.offscreen {
+  position: absolute;
+  left: -2000px;
+}
+
+.hidden {
+  display: none;
+}
+
+button.prev,
+button.next {
+  background: none;
+  border: none;
+  max-width: 10vw;
+  min-width: 10vw;
+  outline: none;
+}
+
+button.prev:hover,
+button.next:active {
+  color: black;
 }
