@@ -9,48 +9,98 @@
 <hr>
 
 <h3>Organizations to Follow</h3>
-<ul class="action-category">
-    {{#each organisations}}
-      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
-    {{/each}}
-</ul>
+<div class="explore-carousel">
+      <button class="prev">
+        <div class="fas fa-chevron-circle-left"></div>
+        <span class="offscreen">Previous</span>
+      </button>
+  <ul class="carousel-content">
+      {{#each organisations}}
+        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+      {{/each}}
+  </ul>
+  <button class="next">
+    <div class="fas fa-chevron-circle-right"></div>
+    <span class="offscreen">Next</span>
+  </button>
+</div>
 
 <hr>
 
 <h3>Events to Attend</h3>
-<ul class="action-category">
-    {{#each events}}
-      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
-    {{/each}}
-</ul>
+<div class="explore-carousel">
+      <button class="prev">
+        <div class="fas fa-chevron-circle-left"></div>
+        <span class="offscreen">Previous</span>
+      </button>
+  <ul class="carousel-content">
+      {{#each events}}
+        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+      {{/each}}
+  </ul>
+  <button class="next">
+    <div class="fas fa-chevron-circle-right"></div>
+    <span class="offscreen">Next</span>
+  </button>
+</div>
 
 <hr>
 
 <h3>Contribute to a Charity</h3>
-<ul class="action-category">
-    {{#each donate}}
-      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
-    {{/each}}
-</ul>
+<div class="explore-carousel">
+      <button class="prev">
+        <div class="fas fa-chevron-circle-left"></div>
+        <span class="offscreen">Previous</span>
+      </button>
+  <ul class="carousel-content">
+      {{#each donate}}
+        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+      {{/each}}
+  </ul>
+  <button class="next">
+    <div class="fas fa-chevron-circle-right"></div>
+    <span class="offscreen">Next</span>
+  </button>
+</div>
 
 <hr>
 
 <h3>Support a Petition</h3>
-<ul class="action-category">
-    {{#each petitions}}
-      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
-    {{/each}}
-</ul>
+<div class="explore-carousel">
+      <button class="prev">
+        <div class="fas fa-chevron-circle-left"></div>
+        <span class="offscreen">Previous</span>
+      </button>
+  <ul class="carousel-content">
+      {{#each petitions}}
+        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+      {{/each}}
+  </ul>
+  <button class="next">
+    <div class="fas fa-chevron-circle-right"></div>
+    <span class="offscreen">Next</span>
+  </button>
+</div>
 
 
 <hr>
 
 <h3>Follow Prominent Activists</h3>
-<ul class="action-category">
-    {{#each socials}}
-      <li><a href="{{url}}" target="_blank">{{name}}</a></li>
-    {{/each}}
-</ul>
+<div class="explore-carousel">
+      <button class="prev">
+        <div class="fas fa-chevron-circle-left"></div>
+        <span class="offscreen">Previous</span>
+      </button>
+  <ul class="carousel-content">
+      {{#each socials}}
+        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+      {{/each}}
+  </ul>
+  <button class="next">
+    <div class="fas fa-chevron-circle-right"></div>
+    <span class="offscreen">Next</span>
+  </button>
+</div>
 
 
 <hr>
