@@ -46,7 +46,7 @@
 .right {
   float: right; }
 
-.size20 {
+.font-20 {
   font-size: 20px; }
 
 .font-25 {
@@ -71,7 +71,6 @@
   margin-bottom: 50px; }
 
 /*******   END HELPERS   *******/
-
 body {
   color: #393D3F;
   background-color: #FFF8F8;
@@ -308,5 +307,3 @@ button.next {
 button.prev:hover,
 button.next:active {
   color: black; }
-
-

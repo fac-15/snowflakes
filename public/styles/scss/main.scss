@@ -71,6 +71,7 @@ $bold-text-color-black: #202020;
 
 .font-20 {
   font-size: 20px;
+}
 
 .font-25 {
   font-size: 25px;
@@ -92,10 +93,6 @@ $bold-text-color-black: #202020;
   width: 20px;
   transform: translateX(-50%);
   margin: 78% auto 0;
-}
-
-.raleway-20{
-  font-size: 20px;
 }
 
 .margin--btm50 {
@@ -225,7 +222,7 @@ h2 {
 *         Explore Page         *
 ********************************/
 
-.explore-h1{
+.explore-h1 {
   color: $bold-text-color-black;
   font-size: 1.2rem;
   margin: 0;
@@ -233,7 +230,7 @@ h2 {
   margin-left: 20px;
 }
 
-.explore-h2{
+.explore-h2 {
   color: $main-text-color-black;
   font-size: 1rem;
   margin-left: 20px;
@@ -267,7 +264,7 @@ li{
   top: 60px;
 }
 
-.button-explore{
+.button-explore {
   font-family:$body-font-raleway;
   color: $bold-text-color-black;
   font-size: 1.3rem;
