@@ -141,3 +141,7 @@ p {
   display: block;
   top: 800px;
   left: 50px; }
+
+/*******   ABOUT HELPERS   *******/
+.about-quote {
+  float: right; }
