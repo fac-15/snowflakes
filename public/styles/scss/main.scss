@@ -199,35 +199,19 @@ h2 {
 /*******************************
 *         Explore Page         *
 ********************************/
-
-.explore-h1{
-  color: $bold-text-color-black;
-  font-size: 1.2rem;
-  margin: 0;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-.explore-h2{
+a {
+  text-decoration: none; 
   color: $main-text-color-black;
-  font-size: 1rem;
-  margin-left: 20px;
-}
-
-.item {
-  a {
-    padding: 5px 20px;
-    display: block;
-    height: 20px;
-    width: 200px;
-    margin: 5px;
-  }
 }
 
 li{
   font-family:$body-font-raleway;
-  color: $main-text-color-black;
-  margin-left: 20px;
+
+  margin-left: 20px; padding: 5px 20px;
+  height: 50px;
+  width: 300px;
+
+  text-align: center;
 }
 
 .button {
@@ -264,12 +248,38 @@ p {
   margin: 0;
 }
 
+.explore-title{
+  font-family:$body-font-raleway;
+  font-size: 1.7rem;
+}
+
+.explore-subtitle{
+  font-family:$body-font-raleway;
+  margin: 20px 15px;
+}
+
+.fas{
+  color: $highlight-color-orange;
+}
+
+.now-pink{
+  color: $highlight-color-orange;
+  font-weight: 700;
+}
+
+.h3-title{
+  font-family:$body-font-raleway;
+  text-align: center;
+}
+
+
 /*******************************
 *      Carousel Content       *
 ********************************/
 
 .explore-carousel {
   width: 100%;
+  height: 130px;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -286,7 +296,7 @@ p {
 }
 
 .carousel-content li {
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -333,8 +343,10 @@ button.prev,
 button.next {
   background: none;
   border: none;
-  max-width: 10vw;
-  min-width: 10vw;
+  max-width: 8vw;
+  min-width: 8vw;
+  max-height: 15vh;
+  min-height: 15vh;
   outline: none;
 }
 
