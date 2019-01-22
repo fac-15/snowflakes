@@ -39,3 +39,45 @@ describe('Test getEvents query', () => {
         });
     });
 });
+
+describe('Test getOrganisations query', () => {
+    test('getOrganisations returns correct first entry name', () => {
+        return queries.getOrganisations.then(res => {
+            expect(res[0].name).toBe('Friends of the Earth');
+        });
+    });
+});
+
+describe('Test getOrganisationRandom query', () => {
+    test('getOrganisationRandom returns an entry', () => {
+        return queries.getOrganisationRandom.then(res => {
+            expect(res).toBeTruthy();
+        });
+    });
+});
+
+describe('Test getPetitions query', () => {
+    test('getPetitions returns correct first entry name', () => {
+        return queries.getPetitions.then(res => {
+            expect(res[0].name).toBe(
+                'Move the target deadlines of the 2008 Climate Change Act from 2050 to 2035'
+            );
+        });
+    });
+});
+
+describe('Test getSocials query', () => {
+    test('getSocials returns correct first entry name', () => {
+        return queries.getSocials.then(res => {
+            expect(res[0].name).toBe('Steve Masters');
+        });
+    });
+});
+
+describe('Test getSocialRandom query', () => {
+    test('getSocialRandom returns correct first entry name', () => {
+        return queries.getSocialRandom.then(res => {
+            expect(res).toBeTruthy();
+        });
+    });
+});
