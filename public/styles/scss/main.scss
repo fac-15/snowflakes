@@ -46,6 +46,7 @@ $bold-text-color-black: #202020;
   padding: 16px;
   font-size: 40px;
   margin: 0 auto;
+  padding-top: 1em;
 }
 
 .p-raleway {
@@ -92,6 +93,9 @@ a {
   cursor: cell;
 }
 
+.a:hover {
+  color: red;
+}
 
 .fas {
   display: block !important;

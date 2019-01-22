@@ -25,7 +25,8 @@
   color: #393D3F;
   padding: 16px;
   font-size: 40px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 1em; }
 
 .p-raleway {
   font-family: "Raleway", sans-serif;
@@ -62,6 +63,9 @@
 a {
   text-decoration: none;
   cursor: cell; }
+
+.a:hover {
+  color: red; }
 
 .fas {
   display: block !important;
