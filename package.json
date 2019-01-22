@@ -7,7 +7,7 @@
         "test": "jest"
     },
     "scripts": {
-        "test": "NODE_ENV=test jest --coverage",
+        "test": "NODE_ENV=test jest --coverage --runInBand --detectOpenHandles",
         "dev": "nodemon src/index.js",
         "start": "node src/index.js",
         "scss": "node-sass --watch public/styles/scss/main.scss -o public/styles/css"
