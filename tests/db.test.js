@@ -1,0 +1,41 @@
+/* eslint-disable */
+
+// const request = require('supertest');
+// const app = require('../server');
+const dbTestBuild = require('../src/model/db/test_build.js');
+const dbTestDrop = require('../src/model/db/test_drop.js');
+const queries = require('../src/model/index.js');
+const db = require('../src/model/db/db_connection.js');
+
+beforeEach(() => dbTestDrop());
+beforeEach(() => dbTestBuild());
+
+test('Jest is working', () => {
+    expect(1 + 1).toBe(2);
+});
+
+describe('Test getDonate query', () => {
+    test('getDonate returns correct first entry name', () => {
+        return queries.getDonate.then(res => {
+            expect(res[0].name).toBe('Greenpeace UK');
+        });
+    });
+});
+
+describe('Test getDonateRandom query', () => {
+    test('getDonateRandom returns an entry', () => {
+        return queries.getDonateRandom.then(res => {
+            expect(res).toBeTruthy();
+        });
+    });
+});
+
+describe('Test getEvents query', () => {
+    test('getEvents returns correct first entry name', () => {
+        return queries.getEvents.then(res => {
+            expect(res[0].name).toBe(
+                'Socialism 101: System change not climate change'
+            );
+        });
+    });
+});
