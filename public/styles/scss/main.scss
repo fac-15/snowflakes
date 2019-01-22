@@ -20,9 +20,11 @@ $bold-text-color-black: #202020;
   width: 100vw;
   height: 100vh;
 }
- .clear {
+
+.clear {
    clear: both;
- }
+}
+
 .italic{
   font-style: italic;
 }
@@ -40,8 +42,10 @@ $bold-text-color-black: #202020;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  text-align: right;
   color: #393D3F;
+  padding: 16px;
+  font-size: 40px;
+  margin: 0 auto;
 }
 
 .p-raleway {
@@ -52,7 +56,9 @@ $bold-text-color-black: #202020;
   font-size: 20px;
   letter-spacing: 0.1em;
   color: #000000;
-  margin: 20px;
+  margin: 0 auto;
+  padding: 16px;
+  width: 251px;
 }
 
 .p-bold {
@@ -71,6 +77,7 @@ $bold-text-color-black: #202020;
 
 .font-20 {
   font-size: 20px;
+}
 
 .font-25 {
   font-size: 25px;
@@ -80,27 +87,33 @@ $bold-text-color-black: #202020;
   font-size: 30px;
 }
 
-.fas {
-  display: block !important;
+a {
+  text-decoration: none;
+  cursor: cell;
 }
 
-.arrow-down {
+
+.fas {
+  display: block !important;
   color: #FF6F61;
   font-size: 2em;
-  display: block;
   height: 20px;
   width: 20px;
-  transform: translateX(-50%);
+}
+
+.chevron-down {
   margin: 78% auto 0;
 }
 
-.raleway-20{
-  font-size: 20px;
+.chevron-right {
+  margin: 3% auto 0;
 }
+
 
 .margin--btm50 {
     margin-bottom: 50px;
 }
+
 
 //mixins
 
@@ -110,6 +123,7 @@ body {
   color: $main-text-color-black;
   background-color: $background-color-white;
   margin: 10px 10px 10px 10px;
+  cursor: crosshair;
 }
 
 .arrow {
@@ -128,11 +142,9 @@ body {
     float: left;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
-
 
 /*******************************
 *         Landing Page         *
