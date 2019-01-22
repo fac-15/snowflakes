@@ -93,8 +93,8 @@ a {
   cursor: cell;
 }
 
-.a:hover {
-  color: red;
+a:hover {
+  color:#97DDDF;
 }
 
 .fas {
@@ -103,6 +103,10 @@ a {
   font-size: 2em;
   height: 20px;
   width: 20px;
+}
+
+.fas:hover {
+  color:#97DDDF;
 }
 
 .chevron-down {

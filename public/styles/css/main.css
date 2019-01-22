@@ -64,8 +64,8 @@ a {
   text-decoration: none;
   cursor: cell; }
 
-.a:hover {
-  color: red; }
+a:hover {
+  color: #97DDDF; }
 
 .fas {
   display: block !important;
@@ -73,6 +73,9 @@ a {
   font-size: 2em;
   height: 20px;
   width: 20px; }
+
+.fas:hover {
+  color: #97DDDF; }
 
 .chevron-down {
   margin: 78% auto 0; }
