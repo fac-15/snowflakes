@@ -1,6 +1,13 @@
 /*******************************
 *            Helpers           *
 ********************************/
+.iphone5-page {
+  width: 100vw;
+  height: 100vh; }
+
+.clear {
+  clear: both; }
+
 .italic {
   font-style: italic; }
 
@@ -10,21 +17,52 @@
 .sub-heading {
   font-size: 2.2rem; }
 
+.h3-raleway {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: right;
+  color: #393D3F; }
+
+.p-raleway {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin: 20px; }
+
+.p-bold {
+  font-weight: 300;
+  font-size: 22px; }
+
 .highlight {
   color: #FF6F61;
-  font-weight: 700; }
+  font-size: 25px; }
 
-.size20 {
-  font-size: 20px; }
+.font-25 {
+  font-size: 25px; }
+
+.font-30 {
+  font-size: 30px; }
 
 .fas {
+  display: block !important; }
+
+.arrow-down {
   color: #FF6F61;
   font-size: 2em;
-  position: relative;
-  left: 50%;
+  display: block;
+  height: 20px;
+  width: 20px;
   transform: translateX(-50%);
-  margin: 15% 0 20% 0;
+  margin: 78% auto 0; }
 
+.raleway-20 {
+  font-size: 20px; }
 
 /*******   END HELPERS   *******/
 body {
@@ -35,41 +73,49 @@ body {
 .container {
   margin: 10px 10px 10px 10px; }
 
+html {
+  scroll-behavior: smooth; }
+
 /*******************************
 *         Landing Page         *
 ********************************/
 header {
-  position: relative;
-  top: 29px; }
+  margin-top: 12rem;
+  width: 320px;
+  height: 375px; }
 
 h1 {
-  position: relative;
   font-family: "Playfair Display", serif;
   color: #393D3F;
   font-size: 2.8rem;
   letter-spacing: 0.1em;
-  margin: 40% 0 0 4%;
+  padding-left: 4%;
   line-height: 38px;
   z-index: 100;
-  top: -1px; }
+  top: -1px;
+  width: 304px;
+  z-index: 100; }
 
 h2 {
   margin: 20px 15px; }
 
-#sub-title-container {
-  position: relative;
-  top: -23px;
-  left: 102px; }
+.sub-title-container {
+  position: absolute;
+  padding-left: 6.3rem;
+  height: 200px;
+  width: 200px;
+  z-index: -1;
+  top: 17rem; }
 
-#border {
-  border: 2px solid #393D3F;
+.border {
+  border: 0.5px solid #393D3F;
   border-radius: 10px;
   height: 199px;
   width: 210px;
   position: relative;
   left: -24px; }
 
-#border-breaker {
+.border-breaker {
   height: 180px;
   width: 214px;
   background-color: #FFF8F8;
@@ -92,8 +138,10 @@ h2 {
   top: -394px;
   left: -24px; }
 
-.fas-home {
-  top: -385px; }
+#landing-page-main {
+  position: relative;
+  top: 10px;
+  margin: 1rem; }
 
 .topthree-h2 {
   color: #393D3F;
@@ -110,16 +158,13 @@ h2 {
 .explore-h1 {
   color: #202020;
   font-size: 1.2rem;
-  margin: 20px 0px 0px 20px;
-}
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px; }
 
 .explore-h2 {
   color: #393D3F;
   font-size: 1rem;
-  margin-left: 20px; }
-
-h3 {
-  color: #393D3F;
   margin-left: 20px; }
 
 .item a {
