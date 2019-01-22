@@ -15,6 +15,7 @@ $bold-text-color-black: #202020;
 /*******************************
 *            Helpers           *
 ********************************/
+
 .iphone5-page {
   width: 100vw;
   height: 100vh;
@@ -64,6 +65,13 @@ $bold-text-color-black: #202020;
   font-size: 25px;
 }
 
+.right {
+    float: right;
+}
+
+.font-20 {
+  font-size: 20px;
+
 .font-25 {
   font-size: 25px;
 }
@@ -90,6 +98,10 @@ $bold-text-color-black: #202020;
   font-size: 20px;
 }
 
+.margin--btm50 {
+    margin-bottom: 50px;
+}
+
 //mixins
 
 
@@ -100,9 +112,22 @@ body {
   margin: 10px 10px 10px 10px;
 }
 
-.container {
-  margin: 10px 10px 10px 10px;
+.arrow {
+    display: block;
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    background-repeat: no-repeat;
 }
+.arrow-right {
+    background-image: url(../../img/arr-right.png);
+    float: right;
+}
+.arrow-left {
+    background-image: url(../../img/arr-left.png);
+    float: left;
+}
+
 
 html {
   scroll-behavior: smooth;
@@ -262,6 +287,28 @@ li{
 
 p {
   margin: 0;
+}
+
+/*****************************
+*         Quiz pages         *
+*****************************/
+
+.questions {
+    font-family: $h2-font;
+    margin-bottom: 100px;
+    .sub-heading {
+        font-size: 3rem;
+        font-weight: 100;
+    }
+    .swipe-ans {
+        color: $highlight-color-orange;
+        font-size: 2rem;
+        font-weight: 300;
+
+        p {
+            font-size: 1.8rem;
+        }
+    }
 }
 
 /*******************************

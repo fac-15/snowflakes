@@ -43,6 +43,12 @@
   color: #FF6F61;
   font-size: 25px; }
 
+.right {
+  float: right; }
+
+.size20 {
+  font-size: 20px; }
+
 .font-25 {
   font-size: 25px; }
 
@@ -61,17 +67,30 @@
   transform: translateX(-50%);
   margin: 78% auto 0; }
 
-.raleway-20 {
-  font-size: 20px; }
+.margin--btm50 {
+  margin-bottom: 50px; }
 
 /*******   END HELPERS   *******/
+
 body {
   color: #393D3F;
   background-color: #FFF8F8;
   margin: 10px 10px 10px 10px; }
 
-.container {
-  margin: 10px 10px 10px 10px; }
+.arrow {
+  display: block;
+  height: 50px;
+  width: 80px;
+  margin: 10px;
+  background-repeat: no-repeat; }
+
+.arrow-right {
+  background-image: url(../../img/arr-right.png);
+  float: right; }
+
+.arrow-left {
+  background-image: url(../../img/arr-left.png);
+  float: left; }
 
 html {
   scroll-behavior: smooth; }
@@ -208,6 +227,21 @@ li {
 p {
   margin: 0; }
 
+/*****************************
+*         Quiz pages         *
+*****************************/
+.questions {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 100px; }
+  .questions .sub-heading {
+    font-size: 3rem;
+    font-weight: 100; }
+  .questions .swipe-ans {
+    color: #FF6F61;
+    font-size: 2rem;
+    font-weight: 300; }
+    .questions .swipe-ans p {
+      font-size: 1.8rem; }
 
 /*******************************
 *      Carousel Content       *
@@ -274,4 +308,5 @@ button.next {
 button.prev:hover,
 button.next:active {
   color: black; }
+
 

@@ -1,4 +1,5 @@
 //exports all db calls to be used in controllers
+/* eslint-disable global-require */
 module.exports = {
     getDonate: require('./getDonate'),
     getEvents: require('./getEvents'),
