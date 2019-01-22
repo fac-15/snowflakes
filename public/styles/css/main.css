@@ -9,16 +9,13 @@
   clear: both; }
 
 .italic {
-    font-style: italic;
-}
+  font-style: italic; }
 
 .bold {
-    font-weight: 700;
-}
+  font-weight: 700; }
 
 .sub-heading {
-    font-size: 2.2rem;
-}
+  font-size: 2.2rem; }
 
 .h3-raleway {
   font-family: "Raleway", sans-serif;
@@ -69,14 +66,12 @@
 
 /*******   END HELPERS   *******/
 body {
-    color: #393d3f;
-    background-color: #fff8f8;
-    margin: 10px 10px 10px 10px;
-}
+  color: #393D3F;
+  background-color: #FFF8F8;
+  margin: 10px 10px 10px 10px; }
 
 .container {
-    margin: 10px 10px 10px 10px;
-}
+  margin: 10px 10px 10px 10px; }
 
 html {
   scroll-behavior: smooth; }
@@ -102,8 +97,7 @@ h1 {
   z-index: 100; }
 
 h2 {
-    margin: 20px 15px;
-}
+  margin: 20px 15px; }
 
 .sub-title-container {
   position: absolute;
@@ -130,20 +124,19 @@ h2 {
   left: -31px; }
 
 .sub-title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    text-align: right;
-    line-height: normal;
-    color: #393d3f;
-    z-index: 100;
-    width: 188px;
-    position: relative;
-    top: -394px;
-    left: -24px;
-}
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: right;
+  line-height: normal;
+  color: #393D3F;
+  z-index: 100;
+  width: 188px;
+  position: relative;
+  top: -394px;
+  left: -24px; }
 
 #landing-page-main {
   position: relative;
@@ -151,14 +144,13 @@ h2 {
   margin: 1rem; }
 
 .topthree-h2 {
-    color: #393d3f;
-    font-size: 2rem;
-    margin-left: 20px;
-    width: 300px;
-    height: 150px;
-    z-index: 100;
-    position: relative;
-}
+  color: #393D3F;
+  font-size: 2rem;
+  margin-left: 20px;
+  width: 300px;
+  height: 150px;
+  z-index: 100;
+  position: relative; }
 
 /*******************************
 *         Explore Page         *
@@ -171,138 +163,47 @@ h2 {
   margin-left: 20px; }
 
 .explore-h2 {
-    color: #393d3f;
-    font-size: 1rem;
-    margin-left: 20px;
-}
-
-h3 {
-    color: #393d3f;
-    margin-left: 20px;
-}
+  color: #393D3F;
+  font-size: 1rem;
+  margin-left: 20px; }
 
 .item a {
-    padding: 5px 20px;
-    display: block;
-    height: 20px;
-    width: 200px;
-    margin: 5px;
-}
+  padding: 5px 20px;
+  display: block;
+  height: 20px;
+  width: 200px;
+  margin: 5px; }
 
 li {
-    font-family: 'Raleway', sans-serif;
-    color: #393d3f;
-    margin-left: 20px;
-}
+  font-family: "Raleway", sans-serif;
+  color: #393D3F;
+  margin-left: 20px; }
 
 .button {
-    font-family: 'Raleway', sans-serif;
-    color: #202020;
-    float: right;
-    font-size: 1.3rem;
-    margin-right: 20px;
-    text-decoration: none;
-    z-index: 100;
-    position: relative;
-    top: 60px;
-}
+  font-family: "Raleway", sans-serif;
+  color: #202020;
+  float: right;
+  font-size: 1.3rem;
+  margin-right: 20px;
+  text-decoration: none;
+  z-index: 100;
+  position: relative;
+  top: 60px; }
 
 .button-explore {
-    font-family: 'Raleway', sans-serif;
-    color: #202020;
-    font-size: 1.3rem;
-    text-align: center;
-    text-decoration: none;
-    z-index: 100;
-    position: relative;
-}
+  font-family: "Raleway", sans-serif;
+  color: #202020;
+  font-size: 1.3rem;
+  text-align: center;
+  text-decoration: none;
+  z-index: 100;
+  position: relative; }
 
 .link {
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    color: #393d3f;
-    margin-left: 30px;
-}
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: #393D3F;
+  margin-left: 30px; }
 
 p {
-    margin: 0;
-}
-
-/*******************************
-*      Carousel Content       *
-********************************/
-
-.explore-carousel {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.carousel-content {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.carousel-content li {
-    font-size: 1.5em;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    list-style: none;
-    text-align: center;
-    max-width: 80vw;
-}
-
-.active {
-    /* copied from tutorial but needs to be changed */
-    min-height: 15vh;
-}
-
-.active li {
-    position: absolute;
-    /* left: 0; */
-}
-
-.active li.current {
-    top: 30px;
-    display: inline;
-}
-
-.carouselContainer button {
-    border: none;
-    display: none;
-}
-
-.active button {
-    display: block;
-    z-index: 1;
-}
-
-.offscreen {
-    position: absolute;
-    left: -2000px;
-}
-
-.hidden {
-    display: none;
-}
-
-button.prev,
-button.next {
-    background: none;
-    border: none;
-    max-width: 10vw;
-    min-width: 10vw;
-    outline: none;
-}
-
-button.prev:hover,
-button.next:active {
-    color: black;
-}
+  margin: 0; }
