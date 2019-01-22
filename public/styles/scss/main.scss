@@ -264,3 +264,81 @@ p {
   margin: 0;
 }
 
+/*******************************
+*      Carousel Content       *
+********************************/
+
+.explore-carousel {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.carousel-content {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-content li {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  max-width: 80vw;
+}
+
+.active {
+  /* copied from tutorial but needs to be changed */
+  min-height: 15vh;
+}
+
+.active li {
+  position: absolute;
+  /* left: 0; */
+}
+
+.active li.current {
+  top: 30px;
+  display: inline;
+}
+
+.carouselContainer button {
+  border: none;
+  display: none;
+}
+
+.active button {
+  display: block;
+  z-index: 1;
+}
+
+.offscreen {
+  position: absolute;
+  left: -2000px;
+}
+
+.hidden {
+  display: none;
+}
+
+button.prev,
+button.next {
+  background: none;
+  border: none;
+  max-width: 10vw;
+  min-width: 10vw;
+  outline: none;
+}
+
+button.prev:hover,
+button.next:active {
+  color: black;
+}
