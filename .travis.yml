@@ -1,3 +1,15 @@
+services:
+    - postgresql
+env:
+    - TEST_DB_URL=postgres://admin:password@localhost:5432/superbaseTest
+
 language: node_js
 node_js:
-  - "node"
+    - 'node'
+
+after_success: npm run coverage
+
+before_script:
+    - psql -c "CREATE DATABASE superbaseTest;" -U postgres
+    - psql -c "CREATE USER admin WITH PASSWORD 'password';" -U postgres
+    - psql -c "ALTER DATABASE superbaseTest OWNER to admin;" -U postgres
