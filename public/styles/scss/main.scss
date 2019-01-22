@@ -117,12 +117,25 @@ a:hover {
   margin: 3% auto 0;
 }
 
-
 .margin--btm50 {
     margin-bottom: 50px;
 }
 
+.nav-text {
+  text-transform: uppercase;
+  font-family: $body-font-raleway;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+  line-height: normal;
+  color: $highlight-color-orange;
+  margin: 0 auto;
+  position: inline;
+}
 
+nav {
+  display: flex;
+
+}
 //mixins
 
 
@@ -189,7 +202,7 @@ h2 {
 }
 
 .border {
-  border: 0.5px solid $main-text-color-black;
+  border: 0.5px dotted $main-text-color-black;
   border-radius: 10px;
   height: 199px;
   width: 210px;
@@ -233,11 +246,24 @@ h2 {
 ********************************/
 
 .top3-heading {
-  font-family: $h2-font;
+  font-family: $h1-font;
   font-style: normal;
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 2.6rem;
   line-height: normal;
+  color: $main-text-color-black;
+}
+
+.top3-subheading {
+  font-family: $h2-font;
+  font-style: normal;
+  font-size: 0.9rem;
+  font-weight: 100;
+  line-height: normal;
+  margin: -6% auto 8%;
+  width: 300px;
+  text-align: justify;
+  padding-left: 5%;
   color: $main-text-color-black;
 }
 
@@ -255,17 +281,20 @@ h2 {
 }
 
 .top3-a {
-  padding: 1px 35px;
+  text-decoration: underline;
   display: block;
-  height: 59px;
-  width: 200px;
-  margin: 0 0 0.5em 0;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
   font-size: 15px;
+  border: 0.5px dotted #393D3F;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-weight: 600;
 }
 
 .top3-item {
-  border: 0.25em dotted $highlight-color-blue;
-  border-radius: 15px;
+  margin: 8px auto 10px;
 }
 
 

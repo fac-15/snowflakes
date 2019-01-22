@@ -86,6 +86,19 @@ a:hover {
 .margin--btm50 {
   margin-bottom: 50px; }
 
+.nav-text {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+  line-height: normal;
+  color: #FF6F61;
+  margin: 0 auto;
+  position: inline; }
+
+nav {
+  display: flex; }
+
 /*******   END HELPERS   *******/
 body {
   color: #393D3F;
@@ -142,7 +155,7 @@ h2 {
   top: 17rem; }
 
 .border {
-  border: 0.5px solid #393D3F;
+  border: 0.5px dotted #393D3F;
   border-radius: 10px;
   height: 199px;
   width: 210px;
@@ -181,11 +194,23 @@ h2 {
 *         Top3 Styling         *
 ********************************/
 .top3-heading {
-  font-family: "Raleway", sans-serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 2.6rem;
   line-height: normal;
+  color: #393D3F; }
+
+.top3-subheading {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 0.9rem;
+  font-weight: 100;
+  line-height: normal;
+  margin: -6% auto 8%;
+  width: 300px;
+  text-align: justify;
+  padding-left: 5%;
   color: #393D3F; }
 
 .top3-h3 {
@@ -201,16 +226,19 @@ h2 {
   margin: 0 auto; }
 
 .top3-a {
-  padding: 1px 35px;
+  text-decoration: underline;
   display: block;
-  height: 59px;
-  width: 200px;
-  margin: 0 0 0.5em 0;
-  font-size: 15px; }
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 15px;
+  border: 0.5px dotted #393D3F;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-weight: 600; }
 
 .top3-item {
-  border: 0.25em dotted #BDE2FF;
-  border-radius: 15px; }
+  margin: 8px auto 10px; }
 
 /*******************************
 *         Explore Page         *
