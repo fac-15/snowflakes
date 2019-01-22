@@ -106,7 +106,6 @@ $bold-text-color-black: #202020;
 body {
   color: $main-text-color-black;
   background-color: $background-color-white;
-  margin: 10px 10px 10px 10px;
 }
 
 .arrow {
@@ -117,11 +116,11 @@ body {
     background-repeat: no-repeat;
 }
 .arrow-right {
-    background-image: url(../../img/arr-right.png);
+    background-image: url('../../img/arr-right.png');
     float: right;
 }
 .arrow-left {
-    background-image: url(../../img/arr-left.png);
+    background-image: url('../../img/arr-left.png');
     float: left;
 }
 
@@ -293,6 +292,7 @@ p {
 .questions {
     font-family: $h2-font;
     margin-bottom: 100px;
+    padding: 15px;
     .sub-heading {
         font-size: 3rem;
         font-weight: 100;

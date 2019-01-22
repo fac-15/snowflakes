@@ -73,8 +73,7 @@
 /*******   END HELPERS   *******/
 body {
   color: #393D3F;
-  background-color: #FFF8F8;
-  margin: 10px 10px 10px 10px; }
+  background-color: #FFF8F8; }
 
 .arrow {
   display: block;
@@ -84,11 +83,11 @@ body {
   background-repeat: no-repeat; }
 
 .arrow-right {
-  background-image: url(../../img/arr-right.png);
+  background-image: url("../../img/arr-right.png");
   float: right; }
 
 .arrow-left {
-  background-image: url(../../img/arr-left.png);
+  background-image: url("../../img/arr-left.png");
   float: left; }
 
 html {
@@ -231,7 +230,8 @@ p {
 *****************************/
 .questions {
   font-family: "Raleway", sans-serif;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  padding: 15px; }
   .questions .sub-heading {
     font-size: 3rem;
     font-weight: 100; }
