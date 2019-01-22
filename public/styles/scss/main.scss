@@ -15,7 +15,7 @@ $bold-text-color-black: #202020;
 /*******************************
 *            Helpers           *
 ********************************/
-.italic{
+.italic {
   font-style: italic;
 }
 
@@ -32,6 +32,10 @@ $bold-text-color-black: #202020;
   font-weight: 700;
 }
 
+.right {
+    float: right;
+}
+
 .size20 {
   font-size: 20px;
 }
@@ -46,6 +50,14 @@ $bold-text-color-black: #202020;
   margin-bottom: 10%;
 }
 
+.margin--btm50 {
+    margin-bottom: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
 //mixins
 
 
@@ -56,9 +68,22 @@ body {
   margin: 10px 10px 10px 10px;
 }
 
-.container {
-  margin: 10px 10px 10px 10px;
+.arrow {
+    display: block;
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    background-repeat: no-repeat;
 }
+.arrow-right {
+    background-image: url(../../img/arr-right.png);
+    float: right;
+}
+.arrow-left {
+    background-image: url(../../img/arr-left.png);
+    float: left;
+}
+
 
 
 /*******************************
@@ -85,6 +110,8 @@ h1 {
 h2 {
   margin: 20px 15px;
 }
+
+
 
 #sub-title-container {
   position: relative;
@@ -216,3 +243,24 @@ p {
   margin: 0;
 }
 
+/*****************************
+*         Quiz pages         *
+*****************************/
+
+.questions {
+    font-family: $h2-font;
+    margin-bottom: 100px;
+    .sub-heading {
+        font-size: 3rem;
+        font-weight: 100;
+    }
+    .swipe-ans {
+        color: $highlight-color-orange;
+        font-size: 2rem;
+        font-weight: 300;
+
+        p {
+            font-size: 1.8rem;
+        }
+    }
+}
