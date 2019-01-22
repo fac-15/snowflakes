@@ -208,6 +208,7 @@ li {
 p {
   margin: 0; }
 
+
 /*******************************
 *      Carousel Content       *
 ********************************/
@@ -273,3 +274,4 @@ button.next {
 button.prev:hover,
 button.next:active {
   color: black; }
+
