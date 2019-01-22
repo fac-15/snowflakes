@@ -170,7 +170,6 @@ h1 {
   letter-spacing: 0.1em;
   padding-left: 4%;
   line-height: 38px;
-  z-index: 100;
   top: -1px;
   width: 304px;
   z-index: 100;
@@ -229,15 +228,44 @@ h2 {
   margin: 1rem;
 }
 
+/*******************************
+*         Top3 Styling         *
+********************************/
 
-.topthree-h2 {
-  color: $main-text-color-black;
+.top3-heading {
+  font-family: $h2-font;
+  font-style: normal;
+  font-weight: 300;
   font-size: 2rem;
-  margin-left: 20px;
-  width: 300px;
-  height: 150px;
-  z-index: 100;
-  position: relative;
+  line-height: normal;
+  color: $main-text-color-black;
+}
+
+.top3-h3 {
+  font-family: $h2-font;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: normal;
+  color: $main-text-color-black;
+  padding: 9px;
+  padding-left: 2rem;
+  margin: 0 auto;
+}
+
+.top3-a {
+  padding: 1px 35px;
+  display: block;
+  height: 59px;
+  width: 200px;
+  margin: 0 0 0.5em 0;
+  font-size: 15px;
+}
+
+.top3-item {
+  border: 0.25em dotted $highlight-color-blue;
+  border-radius: 15px;
 }
 
 

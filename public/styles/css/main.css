@@ -126,7 +126,6 @@ h1 {
   letter-spacing: 0.1em;
   padding-left: 4%;
   line-height: 38px;
-  z-index: 100;
   top: -1px;
   width: 304px;
   z-index: 100; }
@@ -178,14 +177,40 @@ h2 {
   top: 10px;
   margin: 1rem; }
 
-.topthree-h2 {
-  color: #393D3F;
+/*******************************
+*         Top3 Styling         *
+********************************/
+.top3-heading {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 300;
   font-size: 2rem;
-  margin-left: 20px;
-  width: 300px;
-  height: 150px;
-  z-index: 100;
-  position: relative; }
+  line-height: normal;
+  color: #393D3F; }
+
+.top3-h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: normal;
+  color: #393D3F;
+  padding: 9px;
+  padding-left: 2rem;
+  margin: 0 auto; }
+
+.top3-a {
+  padding: 1px 35px;
+  display: block;
+  height: 59px;
+  width: 200px;
+  margin: 0 0 0.5em 0;
+  font-size: 15px; }
+
+.top3-item {
+  border: 0.25em dotted #BDE2FF;
+  border-radius: 15px; }
 
 /*******************************
 *         Explore Page         *
