@@ -242,6 +242,9 @@ p {
     .questions .swipe-ans p {
       font-size: 1.8rem; }
 
+.no-display {
+  display: none; }
+
 /*******************************
 *      Carousel Content       *
 ********************************/
