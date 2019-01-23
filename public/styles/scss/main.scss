@@ -20,9 +20,11 @@ $bold-text-color-black: #202020;
   width: 100vw;
   height: 100vh;
 }
- .clear {
+
+.clear {
    clear: both;
- }
+}
+
 .italic{
   font-style: italic;
 }
@@ -40,8 +42,11 @@ $bold-text-color-black: #202020;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  text-align: right;
   color: #393D3F;
+  padding: 16px;
+  font-size: 40px;
+  margin: 0 auto;
+  padding-top: 1em;
 }
 
 .p-raleway {
@@ -52,7 +57,9 @@ $bold-text-color-black: #202020;
   font-size: 20px;
   letter-spacing: 0.1em;
   color: #000000;
-  margin: 20px;
+  margin: 0 auto;
+  padding: 16px;
+  width: 251px;
 }
 
 .p-bold {
@@ -81,24 +88,54 @@ $bold-text-color-black: #202020;
   font-size: 30px;
 }
 
-.fas {
-  display: block !important;
+a {
+  text-decoration: none;
+  cursor: cell;
 }
 
-.arrow-down {
+a:hover {
+  color:#97DDDF;
+}
+
+.fas {
+  display: block !important;
   color: #FF6F61;
   font-size: 2em;
-  display: block;
   height: 20px;
   width: 20px;
-  transform: translateX(-50%);
+}
+
+.fas:hover {
+  color:#97DDDF;
+}
+
+.chevron-down {
   margin: 78% auto 0;
+}
+
+.chevron-right {
+  margin: 3% auto 0;
 }
 
 .margin--btm50 {
     margin-bottom: 50px;
 }
 
+.nav-text {
+  text-transform: uppercase;
+  font-family: $body-font-raleway;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+  line-height: normal;
+  color: $highlight-color-orange;
+  margin: 0 auto;
+  position: inline;
+}
+
+nav {
+  display: flex;
+
+}
 //mixins
 
 
@@ -106,6 +143,8 @@ $bold-text-color-black: #202020;
 body {
   color: $main-text-color-black;
   background-color: $background-color-white;
+  margin: 10px 10px 10px 10px;
+  cursor: crosshair;
 }
 
 .arrow {
@@ -124,11 +163,9 @@ body {
     float: left;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
-
 
 /*******************************
 *         Landing Page         *
@@ -146,7 +183,6 @@ h1 {
   letter-spacing: 0.1em;
   padding-left: 4%;
   line-height: 38px;
-  z-index: 100;
   top: -1px;
   width: 304px;
   z-index: 100;
@@ -166,7 +202,7 @@ h2 {
 }
 
 .border {
-  border: 0.5px solid $main-text-color-black;
+  border: 0.5px dotted $main-text-color-black;
   border-radius: 10px;
   height: 199px;
   width: 210px;
@@ -205,15 +241,60 @@ h2 {
   margin: 1rem;
 }
 
+/*******************************
+*         Top3 Styling         *
+********************************/
 
-.topthree-h2 {
+.top3-heading {
+  font-family: $h1-font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.6rem;
+  line-height: normal;
   color: $main-text-color-black;
-  font-size: 2rem;
-  margin-left: 20px;
+}
+
+.top3-subheading {
+  font-family: $h2-font;
+  font-style: normal;
+  font-size: 0.9rem;
+  font-weight: 100;
+  line-height: normal;
+  margin: -6% auto 8%;
   width: 300px;
-  height: 150px;
-  z-index: 100;
-  position: relative;
+  text-align: justify;
+  padding-left: 5%;
+  color: $main-text-color-black;
+}
+
+.top3-h3 {
+  font-family: $h2-font;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: normal;
+  color: $main-text-color-black;
+  padding: 9px;
+  padding-left: 2rem;
+  margin: 0 auto;
+}
+
+.top3-a {
+  text-decoration: underline;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 15px;
+  border: 0.5px dotted #393D3F;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.top3-item {
+  margin: 8px auto 10px;
 }
 
 
