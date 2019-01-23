@@ -22,7 +22,7 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  color: #393D3F;
+  color: #393d3f;
   padding: 16px;
   font-size: 40px;
   margin: 0 auto;
@@ -45,7 +45,7 @@
   font-size: 22px; }
 
 .highlight {
-  color: #FF6F61;
+  color: #ff6f61;
   font-size: 25px; }
 
 .right {
@@ -65,17 +65,17 @@ a {
   cursor: cell; }
 
 a:hover {
-  color: #97DDDF; }
+  color: #97dddf; }
 
 .fas {
   display: block !important;
-  color: #FF6F61;
+  color: #ff6f61;
   font-size: 2em;
   height: 20px;
   width: 20px; }
 
 .fas:hover {
-  color: #97DDDF; }
+  color: #97dddf; }
 
 .chevron-down {
   margin: 78% auto 0; }
@@ -92,7 +92,7 @@ a:hover {
   font-weight: 100;
   letter-spacing: 0.2em;
   line-height: normal;
-  color: #FF6F61;
+  color: #ff6f61;
   margin: 0 auto;
   position: inline; }
 
@@ -101,11 +101,10 @@ nav {
 
 /*******   END HELPERS   *******/
 body {
-  color: #393D3F;
-  background-color: #FFF8F8;
+  color: #393d3f;
+  background-color: #fff8f8;
   margin: 10px 10px 10px 10px;
   cursor: crosshair; }
-}
 
 .arrow {
   display: block;
@@ -135,7 +134,7 @@ header {
 
 h1 {
   font-family: "Playfair Display", serif;
-  color: #393D3F;
+  color: #393d3f;
   font-size: 2.8rem;
   letter-spacing: 0.1em;
   padding-left: 4%;
@@ -156,7 +155,7 @@ h2 {
   top: 17rem; }
 
 .border {
-  border: 0.5px dotted #393D3F;
+  border: 0.5px dotted #393d3f;
   border-radius: 10px;
   height: 199px;
   width: 210px;
@@ -166,7 +165,7 @@ h2 {
 .border-breaker {
   height: 180px;
   width: 214px;
-  background-color: #FFF8F8;
+  background-color: #fff8f8;
   position: relative;
   top: -265px;
   left: -31px; }
@@ -179,7 +178,7 @@ h2 {
   letter-spacing: 0.2em;
   text-align: right;
   line-height: normal;
-  color: #393D3F;
+  color: #393d3f;
   z-index: 100;
   width: 188px;
   position: relative;
@@ -200,7 +199,7 @@ h2 {
   font-weight: 300;
   font-size: 2.6rem;
   line-height: normal;
-  color: #393D3F; }
+  color: #393d3f; }
 
 .top3-subheading {
   font-family: "Raleway", sans-serif;
@@ -212,7 +211,7 @@ h2 {
   width: 300px;
   text-align: justify;
   padding-left: 5%;
-  color: #393D3F; }
+  color: #393d3f; }
 
 .top3-h3 {
   font-family: "Raleway", sans-serif;
@@ -221,7 +220,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   line-height: normal;
-  color: #393D3F;
+  color: #393d3f;
   padding: 9px;
   padding-left: 2rem;
   margin: 0 auto; }
@@ -233,7 +232,7 @@ h2 {
   line-height: 60px;
   text-align: center;
   font-size: 15px;
-  border: 0.5px dotted #393D3F;
+  border: 0.5px dotted #393d3f;
   border-radius: 20px;
   margin: 0 auto;
   font-weight: 600; }
@@ -245,8 +244,17 @@ h2 {
 *         Explore Page         *
 ********************************/
 a {
-  text-decoration: none;
-  color: #393D3F; }
+  text-decoration: none; }
+
+.explore-h1 {
+  color: #202020;
+  font-size: 1.2rem;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.explore-h2 {
+  color: #393d3f; }
 
 li {
   font-family: "Raleway", sans-serif;
@@ -279,7 +287,7 @@ li {
 .link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  color: #393D3F;
+  color: #393d3f;
   margin-left: 30px; }
 
 p {
@@ -294,10 +302,10 @@ p {
   margin: 20px 15px; }
 
 .fas {
-  color: #FF6F61; }
+  color: #ff6f61; }
 
 .now-pink {
-  color: #FF6F61;
+  color: #ff6f61;
   font-weight: 700; }
 
 .h3-title {
@@ -315,7 +323,7 @@ p {
     font-size: 3rem;
     font-weight: 100; }
   .question .swipe-ans {
-    color: #FF6F61;
+    color: #ff6f61;
     font-size: 2rem;
     font-weight: 300; }
     .question .swipe-ans p {
