@@ -32,48 +32,48 @@ const carousel = function() {
 };
 
 carousel();
-
-const quizPage = () => {
-
-    const questions = document.querySelectorAll('.quiz-ques');
-
-    questions.forEach((question, index) => {
-        console.log('question:', question);
-        console.log('index:', index);
-        //each quiz question section
-        const quiz1 = document.getElementById('quiz-1');
-        const quiz2 = document.getElementById('quiz-2');
-        const quiz3 = document.getElementById('quiz-3');
-        const quiz4 = document.getElementById('quiz-4');
-
-        //points counter
-        let counter = 0;
-
-        // identify left and right click (swipe)
-        const right = question.querySelector('.arrow-right');
-        const left = question.querySelector('.arrow-left');
-
-        //event listener for clicks(swipes)
-        left.addEventListener('click', function(e){
-
-            question.classList.toggle('no-display');
-            counter = 0;
-            console.log('NO', counter);
-            console.log('new index', index);
-        });
-
-        right.addEventListener('click', function(e){
-            question.classList.toggle('no-display');
-            counter = 1;
-            console.log('YES', counter);
-            console.log('new index', index);
-        });
-
-        //get index(question number) & check if counter is equal to 0 or 1
-        //if counter is equal to 1, user swiped right (agreed)
-        //if counter is equal to 0, user swiped left (disagreed)
-
-    });
-
-};
-quizPage();
+//
+// const quizPage = () => {
+//
+//     const questions = document.querySelectorAll('.quiz-ques');
+//
+//     questions.forEach((question, index) => {
+//         console.log('question:', question);
+//         console.log('index:', index);
+//         //each quiz question section
+//         const quiz1 = document.getElementById('quiz-1');
+//         const quiz2 = document.getElementById('quiz-2');
+//         const quiz3 = document.getElementById('quiz-3');
+//         const quiz4 = document.getElementById('quiz-4');
+//
+//         //points counter
+//         let counter = 0;
+//
+//         // identify left and right click (swipe)
+//         const right = question.querySelector('.arrow-right');
+//         const left = question.querySelector('.arrow-left');
+//
+//         //event listener for clicks(swipes)
+//         left.addEventListener('click', function(e){
+//
+//             question.classList.toggle('no-display');
+//             counter = 0;
+//             console.log('NO', counter);
+//             console.log('new index', index);
+//         });
+//
+//         right.addEventListener('click', function(e){
+//             question.classList.toggle('no-display');
+//             counter = 1;
+//             console.log('YES', counter);
+//             console.log('new index', index);
+//         });
+//
+//         //get index(question number) & check if counter is equal to 0 or 1
+//         //if counter is equal to 1, user swiped right (agreed)
+//         //if counter is equal to 0, user swiped left (disagreed)
+//
+//     });
+//
+// };
+// quizPage();
