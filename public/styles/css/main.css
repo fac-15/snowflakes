@@ -228,18 +228,18 @@ p {
 /*****************************
 *         Quiz pages         *
 *****************************/
-.questions {
+.question {
   font-family: "Raleway", sans-serif;
   margin-bottom: 100px;
   padding: 15px; }
-  .questions .sub-heading {
+  .question .sub-heading {
     font-size: 3rem;
     font-weight: 100; }
-  .questions .swipe-ans {
+  .question .swipe-ans {
     color: #FF6F61;
     font-size: 2rem;
     font-weight: 300; }
-    .questions .swipe-ans p {
+    .question .swipe-ans p {
       font-size: 1.8rem; }
 
 .no-display {

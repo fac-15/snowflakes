@@ -35,34 +35,45 @@ carousel();
 
 const quizPage = () => {
 
-    //each quiz question section
-    const quiz1 = document.getElementById('quiz-1');
-    const quiz2 = document.getElementById('quiz-2');
-    const quiz3 = document.getElementById('quiz-3');
-    const quiz4 = document.getElementById('quiz-4');
-
     const questions = document.querySelectorAll('.quiz-ques');
 
-    //points counter
-    let points = 0;
+    questions.forEach((question, index) => {
+        console.log('question:', question);
+        console.log('index:', index);
+        //each quiz question section
+        const quiz1 = document.getElementById('quiz-1');
+        const quiz2 = document.getElementById('quiz-2');
+        const quiz3 = document.getElementById('quiz-3');
+        const quiz4 = document.getElementById('quiz-4');
 
-    console.log('page 4', quiz1);
+        //points counter
+        let counter = 0;
 
-    // identify left and right click (swipe)
-    const quizQues = document.querySelectorAll('.questions');
-    const swipe = document.querySelectorAll('.arrow');
-    const accept = document.querySelectorAll('.arrow-right');
-    const reject = document.querySelectorAll('.arrow-left');
-    console.log('does this work.. theres', questions.length);
+        // identify left and right click (swipe)
+        const right = question.querySelector('.arrow-right');
+        const left = question.querySelector('.arrow-left');
 
-    //event listener for clicks(swipes)
-    swipe.addEventListener('click', function(e){
+        //event listener for clicks(swipes)
+        left.addEventListener('click', function(e){
 
-        questions.forEach(question => {
             question.classList.toggle('no-display');
-            // quiz1.classList.add('no-display');
-            // quiz2.classList.remove('no-display');
+            counter = 0;
+            console.log('NO', counter);
+            console.log('new index', index);
         });
+
+        right.addEventListener('click', function(e){
+            question.classList.toggle('no-display');
+            counter = 1;
+            console.log('YES', counter);
+            console.log('new index', index);
+        });
+
+        //get index(question number) & check if counter is equal to 0 or 1
+        //if counter is equal to 1, user swiped right (agreed)
+        //if counter is equal to 0, user swiped left (disagreed)
+
     });
+
 };
 quizPage();
