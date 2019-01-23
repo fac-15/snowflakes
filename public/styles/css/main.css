@@ -307,3 +307,7 @@ button.next {
 button.prev:hover,
 button.next:active {
   color: black; }
+
+/*******   ABOUT HELPERS   *******/
+.about-quote {
+  float: right; }
