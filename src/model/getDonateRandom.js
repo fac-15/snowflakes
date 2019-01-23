@@ -10,7 +10,7 @@ const getDonateRandom = new Promise((resolve, reject) => {
                     `You have an error fetching data from Donate table: ${err}`
                 );
             } else {
-               resolve(res.rows[0]);
+                resolve(res.rows[0]);
             }
         }
     );
