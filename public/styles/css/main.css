@@ -348,6 +348,12 @@ p {
 .right-chevron {
   margin-right: 7px; }
 
+.email-input {
+  background-color: #FFE4E2;
+  border: none;
+  border-radius: 3px;
+  margin: 0 auto; }
+
 /*****************************
 *         Quiz pages         *
 *****************************/
