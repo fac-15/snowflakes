@@ -105,7 +105,6 @@ body {
   background-color: #FFF8F8;
   margin: 10px 10px 10px 10px;
   cursor: crosshair; }
-}
 
 .arrow {
   display: block;
@@ -244,9 +243,59 @@ h2 {
 /*******************************
 *         Explore Page         *
 ********************************/
-a {
-  text-decoration: none;
-  color: #393D3F; }
+.explore-page {
+  width: 96vw; }
+
+.explore-title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: normal; }
+
+.explore-subtitle {
+  font-family: "Raleway", sans-serif;
+  color: #393D3F;
+  margin: 20px 15px;
+  font-style: normal;
+  font-size: 0.9rem;
+  font-weight: 100;
+  line-height: normal;
+  width: 300px;
+  text-align: justify;
+  padding-left: 5%; }
+
+.explore-h1 {
+  color: #202020;
+  font-size: 1.2rem;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: "Playfair Display", serif; }
+
+.explore-h3 {
+  font-family: "Raleway", sans-serif;
+  color: #393D3F;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: normal;
+  padding: 9px;
+  margin: 0 auto;
+  width: 12rem; }
+
+.explore-a {
+  justify-content: center;
+  text-decoration: underline;
+  font-size: 0.8rem;
+  margin: 0 auto;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  width: -16rem;
+  width: 10rem; }
 
 li {
   font-family: "Raleway", sans-serif;
@@ -285,14 +334,6 @@ li {
 p {
   margin: 0; }
 
-.explore-title {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.7rem; }
-
-.explore-subtitle {
-  font-family: "Raleway", sans-serif;
-  margin: 20px 15px; }
-
 .fas {
   color: #FF6F61; }
 
@@ -303,6 +344,9 @@ p {
 .h3-title {
   font-family: "Raleway", sans-serif;
   text-align: center; }
+
+.right-chevron {
+  margin-right: 7px; }
 
 /*****************************
 *         Quiz pages         *
@@ -324,9 +368,15 @@ p {
 /*******************************
 *      Carousel Content       *
 ********************************/
+li {
+  margin-left: -13px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .explore-carousel {
-  width: 100%;
-  height: 130px;
+  height: 8rem;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -334,31 +384,24 @@ p {
   justify-content: space-between; }
 
 .carousel-content {
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
 
 .carousel-content li {
   font-size: 1.3em;
-  margin: 0;
-  padding: 0;
-  width: 100%;
   list-style: none;
-  text-align: center;
-  max-width: 80vw; }
+  text-align: center; }
 
 .active {
-  /* copied from tutorial but needs to be changed */
-  min-height: 15vh; }
+  border: 0.5px dotted #393D3F;
+  border-radius: 20px; }
 
 .active li {
-  position: absolute;
-  /* left: 0; */ }
+  position: absolute; }
 
 .active li.current {
-  top: 30px;
   display: inline; }
 
 .carouselContainer button {
@@ -379,12 +422,7 @@ p {
 button.prev,
 button.next {
   background: none;
-  border: none;
-  max-width: 8vw;
-  min-width: 8vw;
-  max-height: 15vh;
-  min-height: 15vh;
-  outline: none; }
+  border: none; }
 
 button.prev:hover,
 button.next:active {

@@ -1,7 +1,8 @@
+<main class="explore-page">
 <h2 class='explore-title'>Make your move, snowflake.</h2>
 <p class='explore-subtitle'>Here are some other actions <br>that you can take right <span class='now-pink'>now</span></p>
 
-<h3 class='h3-title'>Organizations to Follow</h3>
+<h3 class='h3-title explore-h3'>Organizations to Follow</h3>
 <div class="explore-carousel">
       <button class="prev">
         <div class="fas fa-chevron-circle-left"></div>
@@ -9,16 +10,16 @@
       </button>
   <ul class="carousel-content">
       {{#each organisations}}
-        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+        <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight">{{name}}</a></li>
       {{/each}}
   </ul>
   <button class="next">
-    <div class="fas fa-chevron-circle-right"></div>
+    <div class="fas fa-chevron-circle-right right-chevron"></div>
     <span class="offscreen">Next</span>
   </button>
 </div>
 
-<h3 class='h3-title'>Events to Attend</h3>
+<h3 class='h3-title explore-h3'>Events to Attend</h3>
 <div class="explore-carousel">
       <button class="prev">
         <div class="fas fa-chevron-circle-left"></div>
@@ -26,16 +27,16 @@
       </button>
   <ul class="carousel-content">
       {{#each events}}
-        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+        <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight">{{name}}</a></li>
       {{/each}}
   </ul>
   <button class="next">
-    <div class="fas fa-chevron-circle-right"></div>
+    <div class="fas fa-chevron-circle-right right-chevron"></div>
     <span class="offscreen">Next</span>
   </button>
 </div>
 
-<h3 class='h3-title'>Contribute to a Charity</h3>
+<h3 class='h3-title explore-h3'>Contribute to a Charity</h3>
 <div class="explore-carousel">
       <button class="prev">
         <div class="fas fa-chevron-circle-left"></div>
@@ -43,16 +44,16 @@
       </button>
   <ul class="carousel-content">
       {{#each donate}}
-        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+        <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight p-raleway">{{name}}</a></li>
       {{/each}}
   </ul>
   <button class="next">
-    <div class="fas fa-chevron-circle-right"></div>
+    <div class="fas fa-chevron-circle-right right-chevron"></div>
     <span class="offscreen">Next</span>
   </button>
 </div>
 
-<h3 class='h3-title'>Support a Petition</h3>
+<h3 class='h3-title explore-h3'>Support a Petition</h3>
 <div class="explore-carousel">
       <button class="prev">
         <div class="fas fa-chevron-circle-left"></div>
@@ -60,16 +61,16 @@
       </button>
   <ul class="carousel-content">
       {{#each petitions}}
-        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+        <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight">{{name}}</a></li>
       {{/each}}
   </ul>
   <button class="next">
-    <div class="fas fa-chevron-circle-right"></div>
+    <div class="fas fa-chevron-circle-right right-chevron"></div>
     <span class="offscreen">Next</span>
   </button>
 </div>
 
-<h3 class='h3-title'>Follow Prominent Activists</h3>
+<h3 class='h3-title explore-h3'>Follow Prominent Activists</h3>
 <div class="explore-carousel">
       <button class="prev">
         <div class="fas fa-chevron-circle-left"></div>
@@ -77,11 +78,11 @@
       </button>
   <ul class="carousel-content">
       {{#each socials}}
-        <li class="hidden"><a href="{{url}}" target="_blank">{{name}}</a></li>
+        <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight">{{name}}</a></li>
       {{/each}}
   </ul>
   <button class="next">
-    <div class="fas fa-chevron-circle-right"></div>
+    <div class="fas fa-chevron-circle-right right-chevron"></div>
     <span class="offscreen">Next</span>
   </button>
 </div>
@@ -89,3 +90,4 @@
 <div class='circle-background-explore'></div>
 <p class='button-explore'>Email me my options</p>
 <a href="/" class='button-explore'>Return to homepage</a>
+</main>
