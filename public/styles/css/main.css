@@ -72,16 +72,11 @@ a:hover {
   color: #FF6F61;
   font-size: 2em;
   height: 20px;
-  width: 20px; }
+  width: 20px;
+  margin: 78% 45%; }
 
 .fas:hover {
   color: #97DDDF; }
-
-.chevron-down {
-  margin: 78% auto 0; }
-
-.chevron-right {
-  margin: 3% auto 0; }
 
 .margin--btm50 {
   margin-bottom: 50px; }
@@ -90,7 +85,7 @@ a:hover {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: 100;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   line-height: normal;
   color: #FF6F61;
   margin: 0 auto;
@@ -105,7 +100,6 @@ body {
   background-color: #FFF8F8;
   margin: 10px 10px 10px 10px;
   cursor: crosshair; }
-}
 
 .arrow {
   display: block;
@@ -241,11 +235,31 @@ h2 {
 .top3-item {
   margin: 8px auto 10px; }
 
+.topthree-bottom-area {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.topthree-explore-btn {
+  margin: 0;
+  float: right; }
+
+.topthree-quesetion-btn {
+  margin: 10px 0; }
+
 /*******************************
 *         Explore Page         *
 ********************************/
 a {
-  text-decoration: none;
+  text-decoration: none; }
+
+.explore-h1 {
+  color: #202020;
+  font-size: 1.2rem;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.explore-h2 {
   color: #393D3F; }
 
 li {

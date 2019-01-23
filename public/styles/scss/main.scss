@@ -103,19 +103,20 @@ a:hover {
   font-size: 2em;
   height: 20px;
   width: 20px;
+  margin: 78% 45%;
 }
 
 .fas:hover {
   color:#97DDDF;
 }
 
-.chevron-down {
-  margin: 78% auto 0;
-}
+// .chevron-down {
+//   margin: 78% auto 0;
+// }
 
-.chevron-right {
-  margin: 3% auto 0;
-}
+// .chevron-right {
+//   margin: 10% auto 0;
+// }
 
 .margin--btm50 {
     margin-bottom: 50px;
@@ -125,7 +126,7 @@ a:hover {
   text-transform: uppercase;
   font-family: $body-font-raleway;
   font-weight: 100;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   line-height: normal;
   color: $highlight-color-orange;
   margin: 0 auto;
@@ -297,6 +298,20 @@ h2 {
   margin: 8px auto 10px;
 }
 
+.topthree-bottom-area{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.topthree-explore-btn{
+  margin: 0; 
+  float: right;
+}
+
+.topthree-quesetion-btn{
+  margin: 10px 0; 
+}
+
 
 /*******************************
 *         Explore Page         *
@@ -304,7 +319,7 @@ h2 {
 
 a {
   text-decoration: none; 
-
+}
 
 .explore-h1 {
   color: $bold-text-color-black;
