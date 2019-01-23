@@ -155,11 +155,11 @@ body {
     background-repeat: no-repeat;
 }
 .arrow-right {
-    background-image: url(../../img/arr-right.png);
+    background-image: url('../../img/arr-right.png');
     float: right;
 }
 .arrow-left {
-    background-image: url(../../img/arr-left.png);
+    background-image: url('../../img/arr-left.png');
     float: left;
 }
 
@@ -302,7 +302,7 @@ h2 {
 *         Explore Page         *
 ********************************/
 
-.explore-h1{
+.explore-h1 {
   color: $bold-text-color-black;
   font-size: 1.2rem;
   margin: 0;
@@ -310,7 +310,7 @@ h2 {
   margin-left: 20px;
 }
 
-.explore-h2{
+.explore-h2 {
   color: $main-text-color-black;
   font-size: 1rem;
   margin-left: 20px;
@@ -344,7 +344,7 @@ li{
   top: 60px;
 }
 
-.button-explore{
+.button-explore {
   font-family:$body-font-raleway;
   color: $bold-text-color-black;
   font-size: 1.3rem;
@@ -373,6 +373,7 @@ p {
 .questions {
     font-family: $h2-font;
     margin-bottom: 100px;
+    padding: 15px;
     .sub-heading {
         font-size: 3rem;
         font-weight: 100;
