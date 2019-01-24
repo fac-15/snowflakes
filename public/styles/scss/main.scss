@@ -103,7 +103,6 @@ a:hover {
   font-size: 2em;
   height: 20px;
   width: 20px;
-  margin: 78% 45%;
 }
 
 .fas:hover {
@@ -439,9 +438,6 @@ p {
   margin: 0;
 }
 
-.fas{
-  color: $highlight-color-orange;
-}
 
 .now-pink{
   color: $highlight-color-orange;
@@ -503,6 +499,7 @@ li{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0rem 1rem;
 }
 
 .carousel-content {
@@ -562,11 +559,13 @@ button.prev,
 button.next {
   background: none;
   border: none;
+  outline: none;
 }
 
 button.prev:hover,
 button.next:active {
   color: black;
+  outline: none;
 }
 
 
