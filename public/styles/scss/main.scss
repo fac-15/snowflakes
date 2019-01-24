@@ -20,9 +20,11 @@ $bold-text-color-black: #202020;
   width: 100vw;
   height: 100vh;
 }
- .clear {
+
+.clear {
    clear: both;
- }
+}
+
 .italic{
   font-style: italic;
 }
@@ -40,8 +42,11 @@ $bold-text-color-black: #202020;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  text-align: right;
   color: #393D3F;
+  padding: 16px;
+  font-size: 40px;
+  margin: 0 auto;
+  padding-top: 1em;
 }
 
 .p-raleway {
@@ -52,7 +57,9 @@ $bold-text-color-black: #202020;
   font-size: 20px;
   letter-spacing: 0.1em;
   color: #000000;
-  margin: 20px;
+  margin: 0 auto;
+  padding: 16px;
+  width: 251px;
 }
 
 .p-bold {
@@ -81,24 +88,54 @@ $bold-text-color-black: #202020;
   font-size: 30px;
 }
 
-.fas {
-  display: block !important;
+a {
+  text-decoration: none;
+  cursor: cell;
 }
 
-.arrow-down {
+a:hover {
+  color:#97DDDF;
+}
+
+.fas {
+  display: block !important;
   color: #FF6F61;
   font-size: 2em;
-  display: block;
   height: 20px;
   width: 20px;
-  transform: translateX(-50%);
-  margin: 78% auto 0;
 }
+
+.fas:hover {
+  color:#97DDDF;
+}
+
+// .chevron-down {
+//   margin: 78% auto 0;
+// }
+
+// .chevron-right {
+//   margin: 10% auto 0;
+// }
 
 .margin--btm50 {
     margin-bottom: 50px;
 }
 
+.nav-text {
+  text-transform: uppercase;
+  font-family: $body-font-raleway;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  line-height: normal;
+  color: $highlight-color-orange;
+  margin: 0 15px;
+  position: inline;
+}
+
+nav {
+  display: flex;
+
+}
 //mixins
 
 
@@ -107,6 +144,7 @@ body {
   color: $main-text-color-black;
   background-color: $background-color-white;
   margin: 10px 10px 10px 10px;
+  cursor: crosshair;
 }
 
 .arrow {
@@ -117,19 +155,17 @@ body {
     background-repeat: no-repeat;
 }
 .arrow-right {
-    background-image: url(../../img/arr-right.png);
+    background-image: url('../../img/arr-right.png');
     float: right;
 }
 .arrow-left {
-    background-image: url(../../img/arr-left.png);
+    background-image: url('../../img/arr-left.png');
     float: left;
 }
-
 
 html {
   scroll-behavior: smooth;
 }
-
 
 /*******************************
 *         Landing Page         *
@@ -147,7 +183,6 @@ h1 {
   letter-spacing: 0.1em;
   padding-left: 4%;
   line-height: 38px;
-  z-index: 100;
   top: -1px;
   width: 304px;
   z-index: 100;
@@ -167,7 +202,7 @@ h2 {
 }
 
 .border {
-  border: 0.5px solid $main-text-color-black;
+  border: 0.5px dotted $main-text-color-black;
   border-radius: 10px;
   height: 199px;
   width: 210px;
@@ -206,21 +241,124 @@ h2 {
   margin: 1rem;
 }
 
+/*******************************
+*         Top3 Styling         *
+********************************/
 
-.topthree-h2 {
+.top3-heading {
+  font-family: $h1-font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.6rem;
+  line-height: normal;
   color: $main-text-color-black;
-  font-size: 2rem;
-  margin-left: 20px;
-  width: 300px;
-  height: 150px;
-  z-index: 100;
-  position: relative;
 }
 
+.top3-subheading {
+  font-family: $h2-font;
+  font-style: normal;
+  font-size: 0.9rem;
+  font-weight: 100;
+  line-height: normal;
+  margin: -6% auto 8%;
+  width: 300px;
+  text-align: justify;
+  padding-left: 5%;
+  color: $main-text-color-black;
+}
+
+.top3-h3 {
+  font-family: $h2-font;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: normal;
+  color: $main-text-color-black;
+  padding: 9px;
+  padding-left: 2rem;
+  margin: 0 auto;
+}
+
+.top3-a {
+  text-decoration: underline;
+  display: block;
+  height: 60px;
+  // line-height: 60px;
+  text-align: center;
+  font-size: 15px;
+  border: 0.5px dotted #393D3F;
+  border-radius: 20px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.top3-item {
+  margin: 8px auto 10px;
+}
+
+.topthree-bottom-area{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.topthree-explore-btn{
+  margin: 8px 15px; 
+  float: right;
+}
+
+.topthree-quesetion-btn{
+  margin: 10px 0; 
+}
+
+
+.topthree-explore-explanation{
+  font-size: 15px;
+  font-family: $h2-font;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin: 0 auto;
+  padding: 10px;
+  width: 266;
+}
+
+.topthree-right{
+  text-align: right;
+}
+
+.smaller-font{
+  font-size: 20px;
+}
 
 /*******************************
 *         Explore Page         *
 ********************************/
+.explore-page{
+  width: 96vw;
+}
+.explore-title{
+  font-family: $h1-font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: normal;
+}
+
+.explore-subtitle{
+  font-family: $body-font-raleway;
+  color: $main-text-color-black;
+  margin: 20px 15px;
+  font-style: normal;
+  font-size: 0.9rem;
+  font-weight: 100;
+  line-height: normal;
+  width: 300px;
+  text-align: justify;
+  padding-left: 5%;
+}
 
 .explore-h1 {
   color: $bold-text-color-black;
@@ -228,28 +366,42 @@ h2 {
   margin: 0;
   margin-top: 20px;
   margin-left: 20px;
+  font-family: $h1-font;
 }
 
-.explore-h2 {
+.explore-h3 {
+  font-family: $body-font-raleway;
   color: $main-text-color-black;
-  font-size: 1rem;
-  margin-left: 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: normal;
+  padding: 9px;
+  margin: 0 auto;
+  width: 12rem;
 }
 
-.item {
-  a {
-    padding: 5px 20px;
-    display: block;
-    height: 20px;
-    width: 200px;
-    margin: 5px;
-  }
+.explore-a {
+  justify-content: center;
+  text-decoration: underline;
+  font-size: 0.8rem;
+  margin: 0 auto;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  width: -16rem;
+  width: 10rem;
 }
 
 li{
   font-family:$body-font-raleway;
-  color: $main-text-color-black;
-  margin-left: 20px;
+  margin-left: 20px; padding: 5px 20px;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  
 }
 
 .button {
@@ -286,6 +438,27 @@ p {
   margin: 0;
 }
 
+
+.now-pink{
+  color: $highlight-color-orange;
+  font-weight: 700;
+}
+
+.h3-title{
+  font-family:$body-font-raleway;
+  text-align: center;
+}
+
+.right-chevron {
+  margin-right: 7px;
+}
+
+.email-input {
+  background-color: #FFE4E2;
+  border: none;
+  border-radius: 3px;
+  margin: 0 auto;
+}
 /*****************************
 *         Quiz pages         *
 *****************************/
@@ -293,6 +466,7 @@ p {
 .questions {
     font-family: $h2-font;
     margin-bottom: 100px;
+    padding: 15px;
     .sub-heading {
         font-size: 3rem;
         font-weight: 100;
@@ -311,46 +485,54 @@ p {
 /*******************************
 *      Carousel Content       *
 ********************************/
-
+li{
+  margin-left: -13px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .explore-carousel {
-  width: 100%;
+  height: 8rem;
   position: relative;
   overflow: hidden;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0rem 1rem;
 }
 
 .carousel-content {
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .carousel-content li {
-  font-size: 1.5em;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  font-size: 1.3em;
   list-style: none;
   text-align: center;
-  max-width: 80vw;
+  // max-width: 80vw;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+
 }
 
 .active {
-  /* copied from tutorial but needs to be changed */
-  min-height: 15vh;
+  border: 0.5px dotted #393D3F;
+  border-radius: 20px;
+
 }
 
 .active li {
   position: absolute;
-  /* left: 0; */
+
 }
 
 .active li.current {
-  top: 30px;
   display: inline;
 }
 
@@ -377,12 +559,18 @@ button.prev,
 button.next {
   background: none;
   border: none;
-  max-width: 10vw;
-  min-width: 10vw;
   outline: none;
 }
 
 button.prev:hover,
 button.next:active {
   color: black;
+  outline: none;
 }
+
+
+/*******   ABOUT HELPERS   *******/
+
+.about-quote{
+  float: right;
+} 
