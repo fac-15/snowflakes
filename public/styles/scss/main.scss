@@ -5,11 +5,11 @@ $body-font-raleway: 'Raleway', sans-serif;
 $quote-font-open-sans: 'Open Sans', sans-serif;
 
 // Colors
-$main-text-color-black: #393D3F;
-$background-color-white: #FFF8F8;
-$highlight-color-orange: #FF6F61;
-$highlight-color-blue: #BDE2FF;
-$highlight-color-green: #97DDDF;
+$main-text-color-black: #393d3f;
+$background-color-white: #fff8f8;
+$highlight-color-orange: #ff6f61;
+$highlight-color-blue: #bde2ff;
+$highlight-color-green: #97dddf;
 $bold-text-color-black: #202020;
 
 /*******************************
@@ -17,59 +17,59 @@ $bold-text-color-black: #202020;
 ********************************/
 
 .iphone5-page {
-  width: 100vw;
-  height: 100vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 .clear {
-   clear: both;
+    clear: both;
 }
 
-.italic{
-  font-style: italic;
+.italic {
+    font-style: italic;
 }
 
 .bold {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .sub-heading {
-  font-size: 2.2rem;
+    font-size: 2.2rem;
 }
 
 .h3-raleway {
-  font-family: $h2-font;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  color: #393D3F;
-  padding: 16px;
-  font-size: 40px;
-  margin: 0 auto;
-  padding-top: 1em;
+    font-family: $h2-font;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: #393d3f;
+    padding: 16px;
+    font-size: 40px;
+    margin: 0 auto;
+    padding-top: 1em;
 }
 
 .p-raleway {
-  font-family: $h2-font;
-  font-style: normal;
-  font-weight: 200;
-  line-height: normal;
-  font-size: 20px;
-  letter-spacing: 0.1em;
-  color: #000000;
-  margin: 0 auto;
-  padding: 16px;
-  width: 251px;
+    font-family: $h2-font;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin: 0 auto;
+    padding: 16px;
+    width: 251px;
 }
 
 .p-bold {
-  font-weight: 300;
-  font-size: 22px;
+    font-weight: 300;
+    font-size: 22px;
 }
 
-.highlight{
-  color: $highlight-color-orange;
-  font-size: 25px;
+.highlight {
+    color: $highlight-color-orange;
+    font-size: 25px;
 }
 
 .right {
@@ -77,75 +77,72 @@ $bold-text-color-black: #202020;
 }
 
 .font-20 {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .font-25 {
-  font-size: 25px;
+    font-size: 25px;
 }
 
 .font-30 {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 a {
-  text-decoration: none;
-  cursor: cell;
+    text-decoration: none;
+    cursor: cell;
 }
 
 a:hover {
-  color:#97DDDF;
+    color: #97dddf;
 }
 
 .fas {
-  display: block !important;
-  color: #FF6F61;
-  font-size: 2em;
-  height: 20px;
-  width: 20px;
-  margin: 78% 45%;
+    display: block !important;
+    color: #ff6f61;
+    font-size: 2em;
+    height: 20px;
+    width: 20px;
 }
 
 .fas:hover {
-  color:#97DDDF;
+    color: #97dddf;
 }
 
-// .chevron-down {
-//   margin: 78% auto 0;
-// }
+.chevron-down {
+    margin: 78% auto 0;
+}
 
-// .chevron-right {
-//   margin: 10% auto 0;
-// }
+.chevron-right {
+    margin: 10% auto 0;
+}
 
 .margin--btm50 {
     margin-bottom: 50px;
 }
 
 .nav-text {
-  text-transform: uppercase;
-  font-family: $body-font-raleway;
-  font-weight: 100;
-  letter-spacing: 0.1em;
-  line-height: normal;
-  color: $highlight-color-orange;
-  margin: 0 15px;
-  position: inline;
+    text-transform: uppercase;
+    font-family: $body-font-raleway;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    line-height: normal;
+    color: $highlight-color-orange;
+    margin: 0 15px;
+    position: inline;
 }
 
 nav {
-  display: flex;
-
+    display: flex;
 }
 //mixins
 
-
 /*******   END HELPERS   *******/
 body {
-  color: $main-text-color-black;
-  background-color: $background-color-white;
-  margin: 10px 10px 10px 10px;
-  cursor: crosshair;
+    color: $main-text-color-black;
+    background-color: $background-color-white;
+    margin: 10px 10px 10px 10px;
+    cursor: crosshair;
 }
 
 .arrow {
@@ -165,81 +162,81 @@ body {
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /*******************************
 *         Landing Page         *
 ********************************/
 header {
-  margin-top: 12rem;
-  width: 320px;
-  height: 375px;
+    margin-top: 12rem;
+    width: 320px;
+    height: 375px;
 }
 
 h1 {
-  font-family: $h1-font;
-  color: #393D3F;
-  font-size: 2.8rem;
-  letter-spacing: 0.1em;
-  padding-left: 4%;
-  line-height: 38px;
-  top: -1px;
-  width: 304px;
-  z-index: 100;
+    font-family: $h1-font;
+    color: #393d3f;
+    font-size: 2.8rem;
+    letter-spacing: 0.1em;
+    padding-left: 4%;
+    line-height: 38px;
+    top: -1px;
+    width: 304px;
+    z-index: 100;
 }
 
 h2 {
-  margin: 20px 15px;
+    margin: 20px 15px;
 }
 
 .sub-title-container {
-  position: absolute;
-  padding-left: 6.3rem;
-  height: 200px;
-  width: 200px;
-  z-index: -1;
-  top: 17rem;
+    position: absolute;
+    padding-left: 6.3rem;
+    height: 200px;
+    width: 200px;
+    z-index: -1;
+    top: 17rem;
 }
 
 .border {
-  border: 0.5px dotted $main-text-color-black;
-  border-radius: 10px;
-  height: 199px;
-  width: 210px;
-  position: relative;
-  left: -24px;
+    border: 0.5px dotted $main-text-color-black;
+    border-radius: 10px;
+    height: 199px;
+    width: 210px;
+    position: relative;
+    left: -24px;
 }
 
 .border-breaker {
-  height: 180px;
-  width: 214px;
-  background-color: #FFF8F8;
-  position: relative;
-  top: -265px;
-  left: -31px;
+    height: 180px;
+    width: 214px;
+    background-color: #fff8f8;
+    position: relative;
+    top: -265px;
+    left: -31px;
 }
 
 .sub-title {
-  font-family: $h2-font;
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  text-align: right;
-  line-height: normal;
-  color: $main-text-color-black;
-  z-index: 100;
-  width: 188px;
-  position: relative;
-  top: -394px;
-  left: -24px;
+    font-family: $h2-font;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: right;
+    line-height: normal;
+    color: $main-text-color-black;
+    z-index: 100;
+    width: 188px;
+    position: relative;
+    top: -394px;
+    left: -24px;
 }
 
 #landing-page-main {
-  position: relative;
-  top: 10px;
-  margin: 1rem;
+    position: relative;
+    top: 10px;
+    margin: 1rem;
 }
 
 /*******************************
@@ -247,221 +244,215 @@ h2 {
 ********************************/
 
 .top3-heading {
-  font-family: $h1-font;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 2.6rem;
-  line-height: normal;
-  color: $main-text-color-black;
+    font-family: $h1-font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.6rem;
+    line-height: normal;
+    color: $main-text-color-black;
 }
 
 .top3-subheading {
-  font-family: $h2-font;
-  font-style: normal;
-  font-size: 0.9rem;
-  font-weight: 100;
-  line-height: normal;
-  margin: -6% auto 8%;
-  width: 300px;
-  text-align: justify;
-  padding-left: 5%;
-  color: $main-text-color-black;
+    font-family: $h2-font;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight: 100;
+    line-height: normal;
+    margin: -6% auto 8%;
+    width: 300px;
+    text-align: justify;
+    padding-left: 5%;
+    color: $main-text-color-black;
 }
 
 .top3-h3 {
-  font-family: $h2-font;
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  line-height: normal;
-  color: $main-text-color-black;
-  padding: 9px;
-  padding-left: 2rem;
-  margin: 0 auto;
+    font-family: $h2-font;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: normal;
+    color: $main-text-color-black;
+    padding: 9px;
+    padding-left: 2rem;
+    margin: 0 auto;
 }
 
 .top3-a {
-  text-decoration: underline;
-  display: block;
-  height: 60px;
-  // line-height: 60px;
-  text-align: center;
-  font-size: 15px;
-  border: 0.5px dotted #393D3F;
-  border-radius: 20px;
-  margin: 0 auto;
-  font-weight: 600;
+    text-decoration: underline;
+    display: block;
+    height: 60px;
+    // line-height: 60px;
+    text-align: center;
+    font-size: 15px;
+    border: 0.5px dotted #393d3f;
+    border-radius: 20px;
+    margin: 0 auto;
+    font-weight: 600;
 }
 
 .top3-item {
-  margin: 8px auto 10px;
+    margin: 8px auto 10px;
 }
 
-.topthree-bottom-area{
-  margin-top: 40px;
-  margin-bottom: 40px;
+.topthree-bottom-area {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.topthree-explore-btn{
-  margin: 8px 15px; 
-  float: right;
+.topthree-explore-btn {
+    margin: 8px 15px;
+    float: right;
 }
 
-.topthree-quesetion-btn{
-  margin: 10px 0; 
+.topthree-quesetion-btn {
+    margin: 10px 0;
 }
 
-
-.topthree-explore-explanation{
-  font-size: 15px;
-  font-family: $h2-font;
-  font-style: normal;
-  font-weight: 200;
-  line-height: normal;
-  letter-spacing: 0.1em;
-  color: #000000;
-  margin: 0 auto;
-  padding: 10px;
-  width: 266;
+.topthree-explore-explanation {
+    font-size: 15px;
+    font-family: $h2-font;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin: 0 auto;
+    padding: 10px;
+    width: 266;
 }
 
-.topthree-right{
-  text-align: right;
+.topthree-right {
+    text-align: right;
 }
 
-.smaller-font{
-  font-size: 20px;
+.smaller-font {
+    font-size: 20px;
 }
 
 /*******************************
 *         Explore Page         *
 ********************************/
-.explore-page{
-  width: 96vw;
+.explore-page {
+    width: 96vw;
 }
-.explore-title{
-  font-family: $h1-font;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 2.2rem;
-  line-height: normal;
+.explore-title {
+    font-family: $h1-font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: normal;
 }
 
-.explore-subtitle{
-  font-family: $body-font-raleway;
-  color: $main-text-color-black;
-  margin: 20px 15px;
-  font-style: normal;
-  font-size: 0.9rem;
-  font-weight: 100;
-  line-height: normal;
-  width: 300px;
-  text-align: justify;
-  padding-left: 5%;
+.explore-subtitle {
+    font-family: $body-font-raleway;
+    color: $main-text-color-black;
+    margin: 20px 15px;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight: 100;
+    line-height: normal;
+    width: 300px;
+    text-align: justify;
+    padding-left: 5%;
 }
 
 .explore-h1 {
-  color: $bold-text-color-black;
-  font-size: 1.2rem;
-  margin: 0;
-  margin-top: 20px;
-  margin-left: 20px;
-  font-family: $h1-font;
+    color: $bold-text-color-black;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: $h1-font;
 }
 
 .explore-h3 {
-  font-family: $body-font-raleway;
-  color: $main-text-color-black;
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  line-height: normal;
-  padding: 9px;
-  margin: 0 auto;
-  width: 12rem;
+    font-family: $body-font-raleway;
+    color: $main-text-color-black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: normal;
+    padding: 9px;
+    margin: 0 auto;
+    width: 12rem;
 }
 
 .explore-a {
-  justify-content: center;
-  text-decoration: underline;
-  font-size: 0.8rem;
-  margin: 0 auto;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  display: flex;
-  align-items: center;
-  width: -16rem;
-  width: 10rem;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+    width: -16rem;
+    width: 10rem;
 }
 
-li{
-  font-family:$body-font-raleway;
-  margin-left: 20px; padding: 5px 20px;
-  height: 50px;
-  width: 300px;
-  text-align: center;
-  
+li {
+    font-family: $body-font-raleway;
+    margin-left: 20px;
+    padding: 5px 20px;
+    height: 50px;
+    width: 300px;
+    text-align: center;
 }
 
 .button {
-  font-family:$body-font-raleway;
-  color: $bold-text-color-black;
-  float: right;
-  font-size: 1.3rem;
-  margin-right: 20px;
-  text-decoration: none;
-  z-index: 100;
-  position: relative;
-  top: 60px;
+    font-family: $body-font-raleway;
+    color: $bold-text-color-black;
+    float: right;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    text-decoration: none;
+    z-index: 100;
+    position: relative;
+    top: 60px;
 }
 
 .button-explore {
-  font-family:$body-font-raleway;
-  color: $bold-text-color-black;
-  font-size: 1.3rem;
-  text-align: center;
-  text-decoration: none;
-  z-index: 100;
-  position: relative;
+    font-family: $body-font-raleway;
+    color: $bold-text-color-black;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    position: relative;
 }
 
-.link{
-  text-decoration: none;
-  font-family:$body-font-raleway;
-  color: $main-text-color-black;
-  margin-left: 30px;
-
+.link {
+    text-decoration: none;
+    font-family: $body-font-raleway;
+    color: $main-text-color-black;
+    margin-left: 30px;
 }
 
 p {
-  margin: 0;
+    margin: 0;
 }
 
-.fas{
-  color: $highlight-color-orange;
+.now-pink {
+    color: $highlight-color-orange;
+    font-weight: 700;
 }
 
-.now-pink{
-  color: $highlight-color-orange;
-  font-weight: 700;
-}
-
-.h3-title{
-  font-family:$body-font-raleway;
-  text-align: center;
+.h3-title {
+    font-family: $body-font-raleway;
+    text-align: center;
 }
 
 .right-chevron {
-  margin-right: 7px;
+    margin-right: 7px;
 }
 
 .email-input {
-  background-color: #FFE4E2;
-  border: none;
-  border-radius: 3px;
-  margin: 0 auto;
+    background-color: #ffe4e2;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto;
 }
 /*****************************
 *         Quiz pages         *
@@ -489,89 +480,88 @@ p {
 /*******************************
 *      Carousel Content       *
 ********************************/
-li{
-  margin-left: -13px;
-  width: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+li {
+    margin-left: -13px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .explore-carousel {
-  height: 8rem;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    height: 8rem;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rem 1rem;
 }
 
 .carousel-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .carousel-content li {
-  font-size: 1.3em;
-  list-style: none;
-  text-align: center;
-  // max-width: 80vw;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-  // justify-content: center;
-
+    font-size: 1.3em;
+    list-style: none;
+    text-align: center;
+    // max-width: 80vw;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
 }
 
 .active {
-  border: 0.5px dotted #393D3F;
-  border-radius: 20px;
-
+    border: 0.5px dotted #393d3f;
+    border-radius: 20px;
 }
 
 .active li {
-  position: absolute;
-
+    position: absolute;
 }
 
 .active li.current {
-  display: inline;
+    display: inline;
 }
 
 .carouselContainer button {
-  border: none;
-  display: none;
+    border: none;
+    display: none;
 }
 
 .active button {
-  display: block;
-  z-index: 1;
+    display: block;
+    z-index: 1;
 }
 
 .offscreen {
-  position: absolute;
-  left: -2000px;
+    position: absolute;
+    left: -2000px;
 }
 
 .hidden {
-  display: none;
+    display: none;
 }
 
 button.prev,
 button.next {
-  background: none;
-  border: none;
+    background: none;
+    border: none;
+    outline: none;
 }
 
 button.prev:hover,
 button.next:active {
-  color: black;
+    color: black;
+    outline: none;
 }
-
 
 /*******   ABOUT HELPERS   *******/
 
-.about-quote{
-  float: right;
-} 
+.about-quote {
+    float: right;
+}
