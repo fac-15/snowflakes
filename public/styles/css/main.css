@@ -84,6 +84,7 @@ a:hover {
 
 .fas {
 <<<<<<< HEAD
+<<<<<<< HEAD
   display: block !important;
   color: #FF6F61;
   font-size: 2em;
@@ -91,20 +92,30 @@ a:hover {
   width: 20px;
   margin: 78% 45%; }
 =======
+=======
+>>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
     display: block !important;
     color: #ff6f61;
     font-size: 2em;
     height: 20px;
     width: 20px;
+    margin: 78% 45%;
 }
+<<<<<<< HEAD
 >>>>>>> f8220c33a997a8972771578f9981763b4d976f80
+=======
+
+>>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
 
 .fas:hover {
     color: #97dddf;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
 .chevron-down {
     margin: 78% auto 0;
 }
@@ -113,13 +124,19 @@ a:hover {
     margin: 3% auto 0;
 }
 
+<<<<<<< HEAD
 >>>>>>> f8220c33a997a8972771578f9981763b4d976f80
+=======
+>>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
 .margin--btm50 {
     margin-bottom: 50px;
 }
 
 .nav-text {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: 100;
@@ -128,6 +145,7 @@ a:hover {
   color: #FF6F61;
   margin: 0 15px;
   position: inline; }
+<<<<<<< HEAD
 =======
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
@@ -139,6 +157,9 @@ a:hover {
     position: inline;
 }
 >>>>>>> f8220c33a997a8972771578f9981763b4d976f80
+=======
+
+>>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
 
 nav {
     display: flex;
@@ -147,17 +168,23 @@ nav {
 /*******   END HELPERS   *******/
 body {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #393D3F;
   background-color: #FFF8F8;
   margin: 10px 10px 10px 10px;
   cursor: crosshair; }
 =======
+=======
+>>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
     color: #393d3f;
     background-color: #fff8f8;
     margin: 10px 10px 10px 10px;
     cursor: crosshair;
 }
+<<<<<<< HEAD
 >>>>>>> f8220c33a997a8972771578f9981763b4d976f80
+=======
+>>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
 
 .arrow {
     display: block;
@@ -404,6 +431,9 @@ h2 {
 
 .top3-a {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
   text-decoration: underline;
   display: block;
   height: 60px;
@@ -413,6 +443,7 @@ h2 {
   border-radius: 20px;
   margin: 0 auto;
   font-weight: 600; }
+<<<<<<< HEAD
 =======
     text-decoration: underline;
     display: block;
@@ -426,6 +457,9 @@ h2 {
     font-weight: 600;
 }
 >>>>>>> f8220c33a997a8972771578f9981763b4d976f80
+=======
+
+>>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
 
 .top3-item {
     margin: 8px auto 10px;
@@ -465,7 +499,12 @@ h2 {
 ********************************/
 a {
 <<<<<<< HEAD
+<<<<<<< HEAD
   text-decoration: none; }
+=======
+  text-decoration: none; 
+  color: #393d3f;}
+>>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
 
 .explore-h1 {
   color: #202020;
@@ -476,11 +515,14 @@ a {
 
 .explore-h2 {
   color: #393D3F; }
+<<<<<<< HEAD
 =======
     text-decoration: none;
     color: #393d3f;
 }
 >>>>>>> f8220c33a997a8972771578f9981763b4d976f80
+=======
+>>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
 
 li {
     font-family: 'Raleway', sans-serif;
