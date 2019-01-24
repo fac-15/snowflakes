@@ -83,39 +83,19 @@ a:hover {
 }
 
 .fas {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   display: block !important;
   color: #FF6F61;
   font-size: 2em;
   height: 20px;
   width: 20px;
   margin: 78% 45%; }
-=======
-=======
->>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
-    display: block !important;
-    color: #ff6f61;
-    font-size: 2em;
-    height: 20px;
-    width: 20px;
-    margin: 78% 45%;
-}
-<<<<<<< HEAD
->>>>>>> f8220c33a997a8972771578f9981763b4d976f80
-=======
 
->>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
 
 .fas:hover {
     color: #97dddf;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
 .chevron-down {
     margin: 78% auto 0;
 }
@@ -124,19 +104,11 @@ a:hover {
     margin: 3% auto 0;
 }
 
-<<<<<<< HEAD
->>>>>>> f8220c33a997a8972771578f9981763b4d976f80
-=======
->>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
 .margin--btm50 {
     margin-bottom: 50px;
 }
 
 .nav-text {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-weight: 100;
@@ -145,21 +117,6 @@ a:hover {
   color: #FF6F61;
   margin: 0 15px;
   position: inline; }
-<<<<<<< HEAD
-=======
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    letter-spacing: 0.2em;
-    line-height: normal;
-    color: #ff6f61;
-    margin: 0 auto;
-    position: inline;
-}
->>>>>>> f8220c33a997a8972771578f9981763b4d976f80
-=======
-
->>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
 
 nav {
     display: flex;
@@ -167,24 +124,11 @@ nav {
 
 /*******   END HELPERS   *******/
 body {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  color: #393D3F;
-  background-color: #FFF8F8;
-  margin: 10px 10px 10px 10px;
-  cursor: crosshair; }
-=======
-=======
->>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
     color: #393d3f;
     background-color: #fff8f8;
     margin: 10px 10px 10px 10px;
     cursor: crosshair;
 }
-<<<<<<< HEAD
->>>>>>> f8220c33a997a8972771578f9981763b4d976f80
-=======
->>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
 
 .arrow {
     display: block;
@@ -497,32 +441,71 @@ h2 {
 /*******************************
 *         Explore Page         *
 ********************************/
+.explore-page {
+  width: 96vw; }
+
+.explore-title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: normal; }
+
+.explore-subtitle {
+  font-family: "Raleway", sans-serif;
+  color: #393D3F;
+  margin: 20px 15px;
+  font-style: normal;
+  font-size: 0.9rem;
+  font-weight: 100;
+  line-height: normal;
+  width: 300px;
+  text-align: justify;
+  padding-left: 5%; }
+
 a {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  text-decoration: none; }
-=======
   text-decoration: none; 
   color: #393d3f;}
->>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
+
+
 
 .explore-h1 {
   color: #202020;
   font-size: 1.2rem;
   margin: 0;
   margin-top: 20px;
-  margin-left: 20px; }
+  margin-left: 20px;
+  font-family: "Playfair Display", serif; }
+
 
 .explore-h2 {
-  color: #393D3F; }
-<<<<<<< HEAD
-=======
+  color: #393D3F; 
     text-decoration: none;
-    color: #393d3f;
 }
->>>>>>> f8220c33a997a8972771578f9981763b4d976f80
-=======
->>>>>>> b3a25a456df91a4f764a7bc900a2c1a0c3e4507e
+
+.explore-h3 {
+  font-family: "Raleway", sans-serif;
+  color: #393D3F;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: normal;
+  padding: 9px;
+  margin: 0 auto;
+  width: 12rem; }
+
+.explore-a {
+  justify-content: center;
+  text-decoration: underline;
+  font-size: 0.8rem;
+  margin: 0 auto;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  width: -16rem;
+  width: 10rem; }
 
 li {
     font-family: 'Raleway', sans-serif;
@@ -590,6 +573,15 @@ p {
     text-align: center;
 }
 
+.right-chevron {
+  margin-right: 7px; }
+
+.email-input {
+  background-color: #FFE4E2;
+  border: none;
+  border-radius: 3px;
+  margin: 0 auto; }
+
 /*****************************
 *         Quiz pages         *
 *****************************/
@@ -614,48 +606,41 @@ p {
 /*******************************
 *      Carousel Content       *
 ********************************/
+li {
+  margin-left: -13px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .explore-carousel {
-    width: 100%;
-    height: 130px;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+  height: 8rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
 
 .carousel-content {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 .carousel-content li {
-    font-size: 1.3em;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    list-style: none;
-    text-align: center;
-    max-width: 80vw;
-}
+  font-size: 1.3em;
+  list-style: none;
+  text-align: center; }
 
 .active {
-    /* copied from tutorial but needs to be changed */
-    min-height: 15vh;
-}
+  border: 0.5px dotted #393D3F;
+  border-radius: 20px; }
 
 .active li {
-    position: absolute;
-    /* left: 0; */
-}
+  position: absolute; }
 
 .active li.current {
-    top: 30px;
-    display: inline;
-}
+  display: inline; }
 
 .carouselContainer button {
     border: none;
@@ -678,14 +663,9 @@ p {
 
 button.prev,
 button.next {
-    background: none;
-    border: none;
-    max-width: 8vw;
-    min-width: 8vw;
-    max-height: 15vh;
-    min-height: 15vh;
-    outline: none;
-}
+  background: none;
+  border: none; }
+
 
 button.prev:hover,
 button.next:active {
