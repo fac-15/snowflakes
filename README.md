@@ -44,7 +44,7 @@ https://localhost:4000
 :heavy_plus_sign: See our test results
 ``` npm run test ```
 
-<img width='50px' src="https://media.giphy.com/media/4HeSrL5CtS6UE0VzRR/giphy.gif">
+<img width='200px' float='right' src="https://media.giphy.com/media/4HeSrL5CtS6UE0VzRR/giphy.gif">
 
 <br>
 <br>
