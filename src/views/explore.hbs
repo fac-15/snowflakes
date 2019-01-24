@@ -1,97 +1,103 @@
-<main class="explore-page">
-<h2 class='explore-title'>Make your move, snowflake.</h2>
-<p class='explore-subtitle'>Here are some other actions <br>that you can take right <span class='now-pink'>now</span></p>
+  <main class="explore-page iphone5-page auto-height">
+  <h2 class='explore-title'>Make your move, snowflake.</h2>
+  <p class='explore-subtitle'>Here are some other actions <br>that you can take right <span class='now-pink'>now</span></p>
 
-<h3 class='h3-title explore-h3'>Organizations to Follow</h3>
-<div class="explore-carousel">
-      <button class="prev">
-        <div class="fas fa-chevron-circle-left"></div>
-        <span class="offscreen">Previous</span>
-      </button>
-  <ul class="carousel-content">
-      {{#each organisations}}
-        <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight">{{name}}</a></li>
-      {{/each}}
-  </ul>
-  <button class="next">
-    <div class="fas fa-chevron-circle-right right-chevron"></div>
-    <span class="offscreen">Next</span>
-  </button>
-</div>
+  <h3 class='h3-title explore-h3'>Organizations to Follow</h3>
+  <div class="explore-carousel">
+        <button class="prev">
+          <div class="fas fa-chevron-circle-left"></div>
+          <span class="offscreen">Previous</span>
+        </button>
+    <ul class="carousel-content">
+        {{#each organisations}}
+          <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight">{{name}}</a></li>
+        {{/each}}
+    </ul>
+    <button class="next">
+      <div class="fas fa-chevron-circle-right right-chevron"></div>
+      <span class="offscreen">Next</span>
+    </button>
+  </div>
 
-<h3 class='h3-title explore-h3'>Events to Attend</h3>
-<div class="explore-carousel">
-      <button class="prev">
-        <div class="fas fa-chevron-circle-left"></div>
-        <span class="offscreen">Previous</span>
-      </button>
-  <ul class="carousel-content">
-      {{#each events}}
-        <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight">{{name}}</a></li>
-      {{/each}}
-  </ul>
-  <button class="next">
-    <div class="fas fa-chevron-circle-right right-chevron"></div>
-    <span class="offscreen">Next</span>
-  </button>
-</div>
+  <h3 class='h3-title explore-h3'>Events to Attend</h3>
+  <div class="explore-carousel">
+        <button class="prev">
+          <div class="fas fa-chevron-circle-left"></div>
+          <span class="offscreen">Previous</span>
+        </button>
+    <ul class="carousel-content">
+        {{#each events}}
+          <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight">{{name}}</a></li>
+        {{/each}}
+    </ul>
+    <button class="next">
+      <div class="fas fa-chevron-circle-right right-chevron"></div>
+      <span class="offscreen">Next</span>
+    </button>
+  </div>
 
-<h3 class='h3-title explore-h3'>Contribute to a Charity</h3>
-<div class="explore-carousel">
-      <button class="prev">
-        <div class="fas fa-chevron-circle-left"></div>
-        <span class="offscreen">Previous</span>
-      </button>
-  <ul class="carousel-content">
-      {{#each donate}}
-        <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight p-raleway">{{name}}</a></li>
-      {{/each}}
-  </ul>
-  <button class="next">
-    <div class="fas fa-chevron-circle-right right-chevron"></div>
-    <span class="offscreen">Next</span>
-  </button>
-</div>
+  <h3 class='h3-title explore-h3'>Contribute to a Charity</h3>
+  <div class="explore-carousel">
+        <button class="prev">
+          <div class="fas fa-chevron-circle-left"></div>
+          <span class="offscreen">Previous</span>
+        </button>
+    <ul class="carousel-content">
+        {{#each donate}}
+          <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight p-raleway">{{name}}</a></li>
+        {{/each}}
+    </ul>
+    <button class="next">
+      <div class="fas fa-chevron-circle-right right-chevron"></div>
+      <span class="offscreen">Next</span>
+    </button>
+  </div>
 
-<h3 class='h3-title explore-h3'>Support a Petition</h3>
-<div class="explore-carousel">
-      <button class="prev">
-        <div class="fas fa-chevron-circle-left"></div>
-        <span class="offscreen">Previous</span>
-      </button>
-  <ul class="carousel-content">
-      {{#each petitions}}
-        <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight">{{name}}</a></li>
-      {{/each}}
-  </ul>
-  <button class="next">
-    <div class="fas fa-chevron-circle-right right-chevron"></div>
-    <span class="offscreen">Next</span>
-  </button>
-</div>
+  <h3 class='h3-title explore-h3'>Support a Petition</h3>
+  <div class="explore-carousel">
+        <button class="prev">
+          <div class="fas fa-chevron-circle-left"></div>
+          <span class="offscreen">Previous</span>
+        </button>
+    <ul class="carousel-content">
+        {{#each petitions}}
+          <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight">{{name}}</a></li>
+        {{/each}}
+    </ul>
+    <button class="next">
+      <div class="fas fa-chevron-circle-right right-chevron"></div>
+      <span class="offscreen">Next</span>
+    </button>
+  </div>
 
-<h3 class='h3-title explore-h3'>Follow Prominent Activists</h3>
-<div class="explore-carousel">
-      <button class="prev">
-        <div class="fas fa-chevron-circle-left"></div>
-        <span class="offscreen">Previous</span>
-      </button>
-  <ul class="carousel-content">
-      {{#each socials}}
-        <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight">{{name}}</a></li>
-      {{/each}}
-  </ul>
-  <button class="next">
-    <div class="fas fa-chevron-circle-right right-chevron"></div>
-    <span class="offscreen">Next</span>
-  </button>
-</div>
+  <h3 class='h3-title explore-h3'>Follow Prominent Activists</h3>
+  <div class="explore-carousel">
+        <button class="prev">
+          <div class="fas fa-chevron-circle-left"></div>
+          <span class="offscreen">Previous</span>
+        </button>
+    <ul class="carousel-content">
+        {{#each socials}}
+          <li class="hidden"><a href="{{url}}" target="_blank" class="explore-a highlight">{{name}}</a></li>
+        {{/each}}
+    </ul>
+    <button class="next">
+      <div class="fas fa-chevron-circle-right right-chevron"></div>
+      <span class="offscreen">Next</span>
+    </button>
+  </div>
 
-<label for="email" class='button-explore'>Email me my options:</label>
+<!-- Didnt' get around to implementation, but haven't given up hope -->
+  <!-- <label for="email" class='button-explore'>Email me my options:</label>
 
-<input type="email" id="email"
-       pattern=".+@globex.com" size="30" class='email-input' required>
+  <input type="email" id="email"
+         pattern=".+@globex.com" size="30" class='email-input' required> -->
 
+  <nav class='explore-nav'>
+  <a href="/" class='nav-text'> 
+    <p class="explore-home-btn">Go Home</p>
+    <i class="fas fa-home explore-home-icon"></i>
+  </a>
 
-<a href="/" class='button-explore'>Return to homepage</a>
-</main>
+  </nav>
+  </main>

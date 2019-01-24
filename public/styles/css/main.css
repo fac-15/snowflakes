@@ -22,7 +22,7 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  color: #393D3F;
+  color: #393d3f;
   padding: 16px;
   font-size: 40px;
   margin: 0 auto;
@@ -45,7 +45,7 @@
   font-size: 22px; }
 
 .highlight {
-  color: #FF6F61;
+  color: #ff6f61;
   font-size: 25px; }
 
 .right {
@@ -65,17 +65,18 @@ a {
   cursor: cell; }
 
 a:hover {
-  color: #97DDDF; }
+  color: #97dddf; }
 
 .fas {
   display: block !important;
-  color: #FF6F61;
+  color: #ff6f61;
   font-size: 2em;
   height: 20px;
-  width: 20px; }
+  width: 20px;
+  margin: 78% 45%; }
 
 .fas:hover {
-  color: #97DDDF; }
+  color: #97dddf; }
 
 .margin--btm50 {
   margin-bottom: 50px; }
@@ -86,7 +87,7 @@ a:hover {
   font-weight: 100;
   letter-spacing: 0.1em;
   line-height: normal;
-  color: #FF6F61;
+  color: #ff6f61;
   margin: 0 15px;
   position: inline; }
 
@@ -95,8 +96,8 @@ nav {
 
 /*******   END HELPERS   *******/
 body {
-  color: #393D3F;
-  background-color: #FFF8F8;
+  color: #393d3f;
+  background-color: #fff8f8;
   margin: 10px 10px 10px 10px;
   cursor: crosshair; }
 
@@ -128,7 +129,7 @@ header {
 
 h1 {
   font-family: "Playfair Display", serif;
-  color: #393D3F;
+  color: #393d3f;
   font-size: 2.8rem;
   letter-spacing: 0.1em;
   padding-left: 4%;
@@ -149,7 +150,7 @@ h2 {
   top: 17rem; }
 
 .border {
-  border: 0.5px dotted #393D3F;
+  border: 0.5px dotted #393d3f;
   border-radius: 10px;
   height: 199px;
   width: 210px;
@@ -159,7 +160,7 @@ h2 {
 .border-breaker {
   height: 180px;
   width: 214px;
-  background-color: #FFF8F8;
+  background-color: #fff8f8;
   position: relative;
   top: -265px;
   left: -31px; }
@@ -172,7 +173,7 @@ h2 {
   letter-spacing: 0.2em;
   text-align: right;
   line-height: normal;
-  color: #393D3F;
+  color: #393d3f;
   z-index: 100;
   width: 188px;
   position: relative;
@@ -193,7 +194,7 @@ h2 {
   font-weight: 300;
   font-size: 2.6rem;
   line-height: normal;
-  color: #393D3F; }
+  color: #393d3f; }
 
 .top3-subheading {
   font-family: "Raleway", sans-serif;
@@ -205,7 +206,7 @@ h2 {
   width: 300px;
   text-align: justify;
   padding-left: 5%;
-  color: #393D3F; }
+  color: #393d3f; }
 
 .top3-h3 {
   font-family: "Raleway", sans-serif;
@@ -214,7 +215,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   line-height: normal;
-  color: #393D3F;
+  color: #393d3f;
   padding: 9px;
   padding-left: 2rem;
   margin: 0 auto; }
@@ -225,7 +226,7 @@ h2 {
   height: 60px;
   text-align: center;
   font-size: 15px;
-  border: 0.5px dotted #393D3F;
+  border: 0.5px dotted #393d3f;
   border-radius: 20px;
   margin: 0 auto;
   font-weight: 600; }
@@ -277,7 +278,7 @@ h2 {
 
 .explore-subtitle {
   font-family: "Raleway", sans-serif;
-  color: #393D3F;
+  color: #393d3f;
   margin: 20px 15px;
   font-style: normal;
   font-size: 0.9rem;
@@ -287,10 +288,6 @@ h2 {
   text-align: justify;
   padding-left: 5%; }
 
-a {
-  text-decoration: none; 
-  color: #393d3f;}
-
 .explore-h1 {
   color: #202020;
   font-size: 1.2rem;
@@ -299,15 +296,9 @@ a {
   margin-left: 20px;
   font-family: "Playfair Display", serif; }
 
-
-.explore-h2 {
-  color: #393D3F; 
-    text-decoration: none;
-}
-
 .explore-h3 {
   font-family: "Raleway", sans-serif;
-  color: #393D3F;
+  color: #393d3f;
   font-size: 1.2rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -360,14 +351,17 @@ li {
 .link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  color: #393D3F;
+  color: #393d3f;
   margin-left: 30px; }
 
 p {
   margin: 0; }
 
+.fas {
+  color: #ff6f61; }
+
 .now-pink {
-  color: #FF6F61;
+  color: #ff6f61;
   font-weight: 700; }
 
 .h3-title {
@@ -378,10 +372,21 @@ p {
   margin-right: 7px; }
 
 .email-input {
-  background-color: #FFE4E2;
+  background-color: #ffe4e2;
   border: none;
   border-radius: 3px;
   margin: 0 auto; }
+
+.explore-home-btn {
+  margin: 0 auto; }
+
+.explore-home-icon {
+  margin: 0 auto; }
+
+.explore-nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem; }
 
 /*****************************
 *         Quiz pages         *
@@ -394,7 +399,7 @@ p {
     font-size: 3rem;
     font-weight: 100; }
   .questions .swipe-ans {
-    color: #FF6F61;
+    color: #ff6f61;
     font-size: 2rem;
     font-weight: 300; }
     .questions .swipe-ans p {
@@ -431,7 +436,7 @@ li {
   text-align: center; }
 
 .active {
-  border: 0.5px dotted #393D3F;
+  border: 0.5px dotted #393d3f;
   border-radius: 20px; }
 
 .active li {
@@ -461,11 +466,118 @@ button.next {
   border: none;
   outline: none; }
 
-button.prev:hover,
-button.next:active {
-  color: black;
-  outline: none; }
+button.next {
+  margin-right: 3%; }
 
 /*******   ABOUT HELPERS   *******/
 .about-quote {
   float: right; }
+
+/*******   MEDIA QUERIES   *******/
+@media only screen and (min-width: 400px) {
+  .iphone5-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  header {
+    margin-top: 8em; }
+  .top3-subheading {
+    margin: 0; }
+  .auto-height {
+    height: auto; }
+  .top3-a {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .explore-carousel {
+    width: 85%; }
+  .explore-subtitle {
+    text-align: center; } }
+
+/*** Title Fade-In Animation ***/
+.landing-title {
+  animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s; }
+
+.landing-sub-title {
+  animation: fadeindelay 2.5s; }
+
+.landing-navigation {
+  animation: fadeindelay 2.5s; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeindelay {
+  0% {
+    opacity: 0; }
+  55% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* customizable snowflake styling */
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000; }
+
+@-webkit-keyframes snowflakes-fall {
+  0% {
+    top: -10%; }
+  100% {
+    top: 100%; } }
+
+@-webkit-keyframes snowflakes-shake {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  50% {
+    -webkit-transform: translateX(80px);
+    transform: translateX(80px); } }
+
+@keyframes snowflakes-fall {
+  0% {
+    top: -10%; }
+  100% {
+    top: 100%; } }
+
+@keyframes snowflakes-shake {
+  0%,
+  100% {
+    transform: translateX(0); }
+  50% {
+    transform: translateX(80px); } }
+
+/* from http://pajasevi.github.io/CSSnowflakes/ */
+.snowflake {
+  position: fixed;
+  top: -10%;
+  z-index: 9999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  -webkit-animation-name: snowflakes-fall, snowflakes-shake;
+  -webkit-animation-duration: 10s, 3s;
+  -webkit-animation-timing-function: linear, ease-in-out;
+  -webkit-animation-iteration-count: infinite, infinite;
+  -webkit-animation-play-state: running, running;
+  animation-name: snowflakes-fall, snowflakes-shake;
+  animation-duration: 10s, 3s;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: 1, infinite;
+  animation-play-state: running, running; }
+
+.snowflake:nth-of-type(0) {
+  left: 1%;
+  -webkit-animation-delay: 0s, 0s;
+  animation-delay: 0s, 0s; }
+
+/*** animation end ***/
