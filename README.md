@@ -44,18 +44,7 @@ https://localhost:4000
 :heavy_plus_sign: See our test results
 ``` npm run test ```
 
-<img style="float: right; width: 50px" src="https://media.giphy.com/media/4HeSrL5CtS6UE0VzRR/giphy.gif">
-<img style="float: right; width: 50px" src="https://media.giphy.com/media/4HeSrL5CtS6UE0VzRR/giphy.gif">
-<img style="float: right; width: 50px" src="https://media.giphy.com/media/4HeSrL5CtS6UE0VzRR/giphy.gif">
-<img style="float: right; width: 50px" src="https://media.giphy.com/media/4HeSrL5CtS6UE0VzRR/giphy.gif">
-<img style="float: right; width: 50px" src="https://media.giphy.com/media/4HeSrL5CtS6UE0VzRR/giphy.gif">
-<img style="float: right; width: 50px" src="https://media.giphy.com/media/4HeSrL5CtS6UE0VzRR/giphy.gif">
-<img style="float: right; width: 50px" src="https://media.giphy.com/media/4HeSrL5CtS6UE0VzRR/giphy.gif">
-<img style="float: right; width: 50px" src="https://media.giphy.com/media/4HeSrL5CtS6UE0VzRR/giphy.gif">
-<img style="float: right; width: 50px" src="https://media.giphy.com/media/4HeSrL5CtS6UE0VzRR/giphy.gif">
-<img style="float: right; width: 50px" src="https://media.giphy.com/media/4HeSrL5CtS6UE0VzRR/giphy.gif">
-
-
+<img width='50px' src="https://media.giphy.com/media/4HeSrL5CtS6UE0VzRR/giphy.gif">
 
 <br>
 <br>
@@ -88,14 +77,14 @@ Node | Express | Handlebars | PostgreSQL | Jest | CSS | SASS
 
 ## Brief File Structure
 :file_folder: Public
-    - img
-    - scripts
-    - styles
+- img
+- scripts
+- styles
 
 :file_folder: src
-    - controllers
-    - model
-    - views
+- controllers
+- model
+- views
 
 :file_folder: tests
 
