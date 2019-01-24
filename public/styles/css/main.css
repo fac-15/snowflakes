@@ -410,7 +410,8 @@ li {
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin: 0rem 1rem; }
 
 .carousel-content {
   display: flex;
@@ -455,11 +456,7 @@ button.next {
   outline: none; }
 
 button.next {
-  margin-right: 5%; }
-
-button.prev:hover,
-button.next:active {
-  color: black; }
+  margin-right: 3%; }
 
 /*******   ABOUT HELPERS   *******/
 .about-quote {

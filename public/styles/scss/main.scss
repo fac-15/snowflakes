@@ -499,6 +499,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0rem 1rem;
 }
 
 .carousel-content {
@@ -560,12 +561,7 @@ button.next {
 
 // right button was overlapping edge of border
 button.next {
-    margin-right: 5%;
-}
-
-button.prev:hover,
-button.next:active {
-    color: black;
+    margin-right: 3%;
 }
 
 /*******   ABOUT HELPERS   *******/
