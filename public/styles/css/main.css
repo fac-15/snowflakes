@@ -287,6 +287,10 @@ h2 {
   text-align: justify;
   padding-left: 5%; }
 
+a {
+  text-decoration: none; 
+  color: #393d3f;}
+
 .explore-h1 {
   color: #202020;
   font-size: 1.2rem;
@@ -294,6 +298,12 @@ h2 {
   margin-top: 20px;
   margin-left: 20px;
   font-family: "Playfair Display", serif; }
+
+
+.explore-h2 {
+  color: #393D3F; 
+    text-decoration: none;
+}
 
 .explore-h3 {
   font-family: "Raleway", sans-serif;
